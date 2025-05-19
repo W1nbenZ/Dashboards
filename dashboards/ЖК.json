@@ -1,0 +1,40 @@
+{
+  "guid": "788843cea9b146d9a352cc9a7131d38e",
+  "name": "ЖК",
+  "lastEditorName": "user",
+  "lastModified": "2025-05-19T10:34:49.824837Z",
+  "background": {
+    "type": 0,
+    "imageGuid": null,
+    "color": "rgba(255,255,255,0)"
+  },
+  "sheets": [
+    {
+      "guid": "855c2afa0c0545189551b6af39cf999b",
+      "name": "Лист",
+      "position": 0,
+      "isHidden": false,
+      "widgets": [],
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fit": 0,
+      "color": "rgba(255,255,255,1)"
+    }
+  ],
+  "grantedPublicAccess": false,
+  "grid": {
+    "enabled": false
+  },
+  "iconVisibilitySettings": {
+    "impact": true
+  },
+  "dataset": {
+    "workspaceId": "11c83ad1-9283-4884-bb68-31eab1d16c3e",
+    "datasetId": "dd9b6f80-27c1-49e1-9f2e-e3774d97c101"
+  },
+  "workspaceId": "11c83ad1-9283-4884-bb68-31eab1d16c3e",
+  "themeGuid": "c75f35b093fe47d0b6ec4034f39e62d0",
+  "isPublic": false
+}
