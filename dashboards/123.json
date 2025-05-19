@@ -2,7 +2,7 @@
   "guid": "40fbb6cbbe0c4f4faa8d9fe33b1d5c27",
   "name": "123",
   "lastEditorName": "user",
-  "lastModified": "2025-05-19T17:15:59.799939Z",
+  "lastModified": "2025-05-19T19:24:01.007335Z",
   "background": {
     "type": 0,
     "imageGuid": null,
@@ -25,7 +25,7 @@
               "textStyle": {
                 "color": null,
                 "fontSize": null,
-                "fontFamily": "Arial",
+                "fontFamily": "Courier New",
                 "align": null,
                 "verticalAlign": null,
                 "lineHeight": null,
