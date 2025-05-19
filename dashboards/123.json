@@ -2,7 +2,7 @@
   "guid": "40fbb6cbbe0c4f4faa8d9fe33b1d5c27",
   "name": "123",
   "lastEditorName": "user",
-  "lastModified": "2025-05-19T12:53:54.149854Z",
+  "lastModified": "2025-05-19T16:31:46.13711Z",
   "background": {
     "type": 0,
     "imageGuid": null,
@@ -32,7 +32,7 @@
                 "isBold": null,
                 "isItalic": null
               },
-              "background": null
+              "background": "rgb(162,200,238)"
             },
             "body": {
               "formattingEnabled": false,
@@ -46,16 +46,16 @@
               "selectedRowBackgroundColor": null,
               "formatter": null,
               "textStyle": {
-                "color": null,
+                "color": "rgb(83,110,138)",
                 "fontSize": null,
-                "fontFamily": null,
+                "fontFamily": "Times New Roman",
                 "align": null,
                 "verticalAlign": null,
                 "lineHeight": null,
                 "isBold": null,
                 "isItalic": null
               },
-              "background": null
+              "background": "rgba(70,70,70,0)"
             },
             "exportEnabled": null,
             "exportIconColor": null,
@@ -302,6 +302,6 @@
     "datasetId": "5e3650be-8079-4810-975a-0349167d9ebf"
   },
   "workspaceId": "b2726a13-0a29-48d0-b592-c0ff6e4bd2b5",
-  "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+  "themeGuid": "c75f35b093fe47d0b6ec4034f39e62d0",
   "isPublic": false
 }
