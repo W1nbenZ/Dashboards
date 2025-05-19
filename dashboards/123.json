@@ -1,0 +1,307 @@
+{
+  "guid": "40fbb6cbbe0c4f4faa8d9fe33b1d5c27",
+  "name": "123",
+  "lastEditorName": "user",
+  "lastModified": "2025-05-19T12:53:54.149854Z",
+  "background": {
+    "type": 0,
+    "imageGuid": null,
+    "color": "rgba(255,255,255,0)"
+  },
+  "sheets": [
+    {
+      "guid": "58b81840b55544c4b28e33cd34029795",
+      "name": "Лист",
+      "position": 0,
+      "isHidden": false,
+      "widgets": [
+        {
+          "Type": "DataGrid",
+          "dataGridStyle": {
+            "header": {
+              "wordWrapEnabled": null,
+              "formattingEnabled": false,
+              "textFormatter": "@value",
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "background": null
+            },
+            "body": {
+              "formattingEnabled": false,
+              "autoAlignEnabled": true,
+              "textFormatter": "@formattedValue",
+              "textColorFormatter": "rgba(0,0,0,1.0)",
+              "backgroundFormatter": "rgba(0,0,0,0.0)",
+              "wordWrapEnabled": null,
+              "rowAlternationEnabled": null,
+              "rowAlternationColor": null,
+              "selectedRowBackgroundColor": null,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "background": null
+            },
+            "exportEnabled": null,
+            "exportIconColor": null,
+            "outerBorder": {
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              },
+              "width": 1,
+              "enabled": null
+            },
+            "innerHorizontalBorder": {
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              },
+              "width": 1,
+              "enabled": null
+            },
+            "innerVerticalBorder": {
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              },
+              "width": 1,
+              "enabled": null
+            },
+            "total": {
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "background": null
+            },
+            "selectRows": {
+              "enabled": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "backgroundColor": null
+            }
+          },
+          "dataGridState": {
+            "searchText": "",
+            "pageIndex": 0,
+            "pageSize": 20,
+            "allowedPageSizes": [
+              20,
+              100,
+              1000
+            ],
+            "columns": []
+          },
+          "showGrandTotals": null,
+          "guid": "f73659935f484ced8853338dae95d54d",
+          "type": "DataGrid",
+          "position": {
+            "x": 5,
+            "y": 88
+          },
+          "positionLocked": false,
+          "size": {
+            "width": 1207,
+            "height": 944
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "Сводная таблица",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": null,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 1,
+          "allowExport": null,
+          "allowSort": null,
+          "multiselectEnabled": false,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "drilldownEnabled": false,
+          "codeEditableEnabled": true,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": [
+              {
+                "type": 0,
+                "dataRoleName": "Columns",
+                "tableName": "goods",
+                "name": "category",
+                "displayName": "category",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "Columns",
+                "tableName": "goods",
+                "name": "subcategory",
+                "displayName": "subcategory",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              }
+            ]
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [
+            {
+              "name": "Columns",
+              "displayName": "Столбцы",
+              "description": "",
+              "kind": 2,
+              "optional": false
+            }
+          ],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        }
+      ],
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fit": 0,
+      "color": "rgba(255,255,255,1)"
+    }
+  ],
+  "grantedPublicAccess": false,
+  "grid": {
+    "enabled": false
+  },
+  "iconVisibilitySettings": {
+    "impact": true
+  },
+  "dataset": {
+    "workspaceId": "4de8029c-7e04-4f6b-9c46-d02b4f493192",
+    "datasetId": "5e3650be-8079-4810-975a-0349167d9ebf"
+  },
+  "workspaceId": "b2726a13-0a29-48d0-b592-c0ff6e4bd2b5",
+  "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+  "isPublic": false
+}
