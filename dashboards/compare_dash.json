@@ -1,0 +1,543 @@
+{
+  "guid": "243e4fd4d7154bbe99dc00a4c5cf54ac",
+  "name": "compare_dash",
+  "lastEditorName": "user",
+  "lastModified": "2025-05-19T17:34:46.353186Z",
+  "background": {
+    "type": 0,
+    "imageGuid": null,
+    "color": "rgba(255,255,255,0)"
+  },
+  "sheets": [
+    {
+      "guid": "ca07927fbc334866a1a3e32d1271ce8f",
+      "name": "Лист",
+      "position": 0,
+      "isHidden": false,
+      "widgets": [
+        {
+          "Type": "Chart",
+          "defaultLineWidth": null,
+          "legend": {
+            "enabled": null,
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "horizontalAlign": null,
+            "verticalAlign": null,
+            "layout": null
+          },
+          "yAxis": {
+            "enabled": null,
+            "lineEnabled": null,
+            "zoomEnabled": null,
+            "isLogarithmic": null,
+            "showOnlyIntValues": null,
+            "logarithmicTickInterval": null,
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": null,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": null
+            },
+            "min": null,
+            "max": null,
+            "interval": null,
+            "plotLines": [],
+            "plotBands": []
+          },
+          "yAxisOpposite": {
+            "enabled": true,
+            "lineEnabled": null,
+            "zoomEnabled": null,
+            "isLogarithmic": null,
+            "showOnlyIntValues": null,
+            "logarithmicTickInterval": null,
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": null,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": null
+            },
+            "min": null,
+            "max": null,
+            "interval": null,
+            "plotLines": [],
+            "plotBands": []
+          },
+          "xAxis": {
+            "lineEnabled": null,
+            "zoomEnabled": null,
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": null,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": null
+            },
+            "axisType": null,
+            "plotLines": [],
+            "plotBands": [],
+            "opposite": null
+          },
+          "series": [
+            {
+              "name": "guid",
+              "id": "guid",
+              "type": 2,
+              "color": {
+                "colorType": 0,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": "rgba(220,220,220,1)",
+                  "colorEnd": "rgba(90,90,90,1)"
+                }
+              },
+              "border": {
+                "color": {
+                  "colorType": 0,
+                  "color": "rgba(90,90,90,1)",
+                  "gradientColor": {
+                    "colorStart": "rgba(220,220,220,1)",
+                    "colorEnd": "rgba(90,90,90,1)"
+                  }
+                },
+                "width": 2,
+                "enabled": false
+              },
+              "smoothLine": false,
+              "zIndex": null,
+              "points": [],
+              "dashStyle": 0,
+              "marker": {
+                "enabled": false
+              },
+              "lineWidth": null,
+              "useYAxisOpposite": true
+            },
+            {
+              "name": "time",
+              "id": "time",
+              "type": 2,
+              "color": {
+                "colorType": 0,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": "rgba(220,220,220,1)",
+                  "colorEnd": "rgba(90,90,90,1)"
+                }
+              },
+              "border": {
+                "color": {
+                  "colorType": 0,
+                  "color": "rgba(90,90,90,1)",
+                  "gradientColor": {
+                    "colorStart": "rgba(220,220,220,1)",
+                    "colorEnd": "rgba(90,90,90,1)"
+                  }
+                },
+                "width": 2,
+                "enabled": false
+              },
+              "smoothLine": false,
+              "zIndex": null,
+              "points": [],
+              "dashStyle": 0,
+              "marker": {
+                "enabled": false
+              },
+              "lineWidth": null,
+              "useYAxisOpposite": false
+            }
+          ],
+          "dataLabels": {
+            "enabled": null,
+            "formatter": null,
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "allowOverlap": null
+          },
+          "tooltip": {
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "headerEnabled": null,
+            "formatter": null,
+            "valueDisplayType": null
+          },
+          "nullDataHandling": null,
+          "multiselectEnabled": true,
+          "drilldownEnabled": false,
+          "guid": "96a95d0e6f7b44b7be29f324179d3b2c",
+          "type": "Chart",
+          "position": {
+            "x": 63,
+            "y": 87
+          },
+          "positionLocked": false,
+          "size": {
+            "width": 525,
+            "height": 257
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "График",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": null,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 1,
+          "allowExport": null,
+          "allowSort": null,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": [
+              {
+                "type": 0,
+                "dataRoleName": "XAxis",
+                "tableName": "dates",
+                "name": "year",
+                "displayName": "year",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "XAxis",
+                "tableName": "dates",
+                "name": "month",
+                "displayName": "month",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "YAxis",
+                "tableName": "tech",
+                "name": "guid",
+                "displayName": "guid",
+                "expression": null,
+                "summarizeBy": 6,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "YAxis",
+                "tableName": "time",
+                "name": "time",
+                "displayName": "time",
+                "expression": null,
+                "summarizeBy": 3,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              }
+            ]
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": [
+              {
+                "name": "year",
+                "tableName": "dates",
+                "desc": true
+              },
+              {
+                "name": "month",
+                "tableName": "dates",
+                "desc": true
+              }
+            ]
+          },
+          "dataRoles": [
+            {
+              "name": "XAxis",
+              "displayName": "Ось X",
+              "description": "",
+              "kind": 0,
+              "optional": false
+            },
+            {
+              "name": "YAxis",
+              "displayName": "Ось Y",
+              "description": "",
+              "kind": 1,
+              "optional": false
+            },
+            {
+              "name": "ChartLegend",
+              "displayName": "Легенда",
+              "description": "",
+              "kind": 0,
+              "optional": true
+            }
+          ],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        }
+      ],
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fit": 0,
+      "color": "rgba(255,255,255,1)"
+    }
+  ],
+  "grantedPublicAccess": false,
+  "grid": {
+    "enabled": false
+  },
+  "iconVisibilitySettings": {
+    "impact": true
+  },
+  "dataset": {
+    "workspaceId": "b2726a13-0a29-48d0-b592-c0ff6e4bd2b5",
+    "datasetId": "f11bf3e1-2660-48d9-ab3a-e45c1406e4a9"
+  },
+  "workspaceId": "b2726a13-0a29-48d0-b592-c0ff6e4bd2b5",
+  "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+  "isPublic": false
+}
