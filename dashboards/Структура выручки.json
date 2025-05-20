@@ -1,8 +1,8 @@
 {
-  "guid": "30a66974fccd42b9b4a0f3de9d99a8d7",
+  "guid": "002a535c85b24f2092c0de81b3dceeb0",
   "name": "Структура выручки",
   "lastEditorName": "admin",
-  "lastModified": "2024-08-29T08:36:39.887803Z",
+  "lastModified": "2024-08-29T08:36:59.205622Z",
   "background": {
     "type": 0,
     "imageGuid": null,
@@ -10,19 +10,31 @@
   },
   "sheets": [
     {
-      "guid": "54789abafd1147f09988270b00ba44f5",
-      "name": "Анализ продаж по городам",
+      "guid": "1cf375413d6e4d219bb9daac872864ba",
+      "name": "Новый лист",
       "position": 0,
       "isHidden": false,
       "widgets": [
         {
-          "Type": "PieChart",
-          "circleSize": 80,
-          "circleInnerSize": 70,
-          "centerTitle": {
-            "enabled": null,
+          "Type": "ImageWidget",
+          "base64": null,
+          "fileGuid": "a3a13d6a87294da39fb76bb0fddbd229",
+          "imageAlignment": null,
+          "guid": "27a8c1bd08f541979734a4b3994b85c1",
+          "type": "ImageWidget",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "positionLocked": false,
+          "size": {
+            "width": 1916,
+            "height": 1080
+          },
+          "title": {
+            "enabled": false,
             "autoSize": null,
-            "text": "Math.round(@total).toString().replace(/(?!^)(?=(?:\\d{3})+(?:\\.|$))/gm, ' ')+ \" руб\"",
+            "text": "Изображение",
             "link": "",
             "linkEnabled": null,
             "background": {
@@ -37,9 +49,9 @@
               }
             },
             "textStyle": {
-              "color": "rgba(255,255,255,1)",
-              "fontSize": 21,
-              "fontFamily": "Open Sans",
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
               "align": null,
               "verticalAlign": null,
               "lineHeight": null,
@@ -51,87 +63,103 @@
               "height": null
             }
           },
-          "legend": {
-            "enabled": true,
-            "textStyle": {
-              "color": "rgba(255,255,255,1)",
-              "fontSize": 17,
-              "fontFamily": "Open Sans",
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": 4.0,
-              "isBold": null,
-              "isItalic": null
-            },
-            "horizontalAlign": 2,
-            "verticalAlign": 1,
-            "layout": 0
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
           },
-          "series": [
-            {
-              "name": null,
-              "id": "Выручка",
-              "type": 1,
+          "background": {
+            "enabled": null,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 1,
+          "allowExport": null,
+          "allowSort": null,
+          "multiselectEnabled": true,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "drilldownEnabled": false,
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": []
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        },
+        {
+          "Type": "ImageWidget",
+          "base64": null,
+          "fileGuid": "07f923edcacd41bc94cba5f70dcaf0d4",
+          "imageAlignment": null,
+          "guid": "719c19d4721c4c61a5a91019a986c5da",
+          "type": "ImageWidget",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "positionLocked": false,
+          "size": {
+            "width": 1917,
+            "height": 1080
+          },
+          "title": {
+            "enabled": false,
+            "autoSize": null,
+            "text": "Изображение 1",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
               "color": {
-                "colorType": 0,
+                "colorType": null,
                 "color": null,
                 "gradientColor": {
-                  "colorStart": "rgba(220,220,220,1)",
-                  "colorEnd": "rgba(90,90,90,1)"
+                  "colorStart": null,
+                  "colorEnd": null
                 }
-              },
-              "border": {
-                "color": {
-                  "colorType": 0,
-                  "color": "rgba(90,90,90,1)",
-                  "gradientColor": {
-                    "colorStart": "rgba(220,220,220,1)",
-                    "colorEnd": "rgba(90,90,90,1)"
-                  }
-                },
-                "width": 2,
-                "enabled": false
-              },
-              "smoothLine": false,
-              "zIndex": null,
-              "points": [
-                {
-                  "name": "Растительные масла, животные масла",
-                  "id": "Растительные масла, животные масла, маргарины, майонез",
-                  "color": {
-                    "colorType": 0,
-                    "color": null,
-                    "gradientColor": {
-                      "colorStart": "rgba(220,220,220,1)",
-                      "colorEnd": "rgba(90,90,90,1)"
-                    }
-                  }
-                }
-              ],
-              "dashStyle": 0,
-              "marker": {
-                "enabled": false
-              },
-              "lineWidth": null,
-              "useYAxisOpposite": false
-            }
-          ],
-          "pieDataLabels": {
-            "textStyle": {
-              "color": null,
-              "fontSize": 21,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
+              }
             },
-            "valueDisplayType": 2,
-            "formatter": "",
-            "distance": 10
-          },
-          "tooltip": {
             "textStyle": {
               "color": null,
               "fontSize": null,
@@ -142,28 +170,103 @@
               "isBold": null,
               "isItalic": null
             },
-            "headerEnabled": null,
-            "formatter": null,
-            "valueDisplayType": 2
+            "size": {
+              "width": null,
+              "height": null
+            }
           },
-          "dataLabelsFormatter": null,
-          "multiselectEnabled": false,
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": false,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 2,
+          "allowExport": null,
+          "allowSort": null,
+          "multiselectEnabled": true,
+          "colorPalette": null,
+          "useCustomColors": false,
           "drilldownEnabled": false,
-          "guid": "84fb601649fd45d58c6cb936bac17693",
-          "type": "PieChart",
-          "position": {
-            "x": 50,
-            "y": 600
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": []
           },
-          "positionLocked": true,
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        },
+        {
+          "Type": "TextWidget",
+          "contentTextStyle": {
+            "color": null,
+            "fontSize": null,
+            "fontFamily": null,
+            "align": null,
+            "verticalAlign": null,
+            "lineHeight": null,
+            "isBold": null,
+            "isItalic": null
+          },
+          "contentText": "",
+          "guid": "569a781456664fac8537b24339d46ebe",
+          "type": "TextWidget",
+          "position": {
+            "x": 203,
+            "y": 40
+          },
+          "positionLocked": false,
           "size": {
-            "width": 898,
-            "height": 430
+            "width": 244,
+            "height": 71
           },
           "title": {
-            "enabled": null,
-            "autoSize": false,
-            "text": "   Структура выручки по категориям продуктов, %.",
+            "enabled": true,
+            "autoSize": null,
+            "text": "Visiology 3.9",
             "link": "",
             "linkEnabled": null,
             "background": {
@@ -178,10 +281,10 @@
               }
             },
             "textStyle": {
-              "color": "rgba(255,255,255,1)",
-              "fontSize": null,
-              "fontFamily": "Open Sans",
-              "align": 0,
+              "color": "rgb(255,255,255)",
+              "fontSize": 36,
+              "fontFamily": null,
+              "align": null,
               "verticalAlign": null,
               "lineHeight": null,
               "isBold": null,
@@ -195,9 +298,9 @@
           "frame": {
             "enabled": false,
             "style": {
-              "radius": 10,
+              "radius": null,
               "colorType": null,
-              "color": "rgba(0,102,0,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -208,7 +311,7 @@
             "enabled": false,
             "color": {
               "colorType": null,
-              "color": "rgba(219,245,210,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -216,83 +319,159 @@
             }
           },
           "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
+            "x": null,
+            "y": null,
+            "blur": null,
             "spread": null,
-            "color": "rgba(0,0,0,0.145098039215686)"
+            "color": null
           },
-          "zIndex": 7,
+          "zIndex": 3,
           "allowExport": null,
           "allowSort": null,
-          "colorPalette": [
+          "multiselectEnabled": true,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "drilldownEnabled": true,
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": []
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [
             {
-              "id": "cb374a832342428cb43a0453a9b72566",
-              "value": "rgba(60,146,255,1)"
-            },
-            {
-              "id": "2abdb6d33c6d488ea6fd2c4cf523ca3c",
-              "value": "rgba(0,51,153,1)"
-            },
-            {
-              "id": "d2ae42eb1a4f4d1eac27459dc0eb3117",
-              "value": "rgba(205,64,63,1)"
-            },
-            {
-              "id": "26c5d132a4384d46a23c2768257ecbaf",
-              "value": "rgba(181, 181, 181, 1)"
-            },
-            {
-              "id": "b2f7bff68a584b308410f6102e232b31",
-              "value": "rgba(60, 146, 255, 1)"
-            },
-            {
-              "id": "4fa8c45c46a04d0c965c0a3804fe691b",
-              "value": "rgba(216,103,33,1)"
-            },
-            {
-              "id": "0ff19cc5f29448fb82c78d5fd2ca535b",
-              "value": "rgba(255, 150, 85, 1)"
-            },
-            {
-              "id": "0d1cfcf63ce64a37867fd95aeb74d7f2",
-              "value": "rgba(102,102,102,1)"
-            },
-            {
-              "id": "04369ae8d3714e1ab6f9e842b3b5bfb6",
-              "value": "rgba(214,128,128,0.647058823529412)"
-            },
-            {
-              "id": "93cc8a9f2f0f430a816dfc863692b8a8",
-              "value": "rgba(145, 232, 225, 1)"
+              "name": "Columns",
+              "displayName": "Столбцы",
+              "description": "",
+              "kind": 2,
+              "optional": false
             }
           ],
-          "useCustomColors": true,
-          "codeEditableEnabled": true,
-          "overriddenCode": "w.plotOptions.pie.dataLabels.style.color = '#FFFFFFFF';\r\nw.plotOptions.pie.dataLabels.style.textOutline = false;\r\n\r\n\r\nw.plotOptions.pie.borderWidth = 0\r\n\r\nHighcharts.chart({\r\n    chart: w.general,\r\n    plotOptions: w.plotOptions,\r\n    series: w.series,\r\n    drilldown: w.drilldown,\r\n    legend: w.legend,\r\n    tooltip: w.tooltip,\r\n    colors: w.colors\r\n});\r\n\r\n",
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        },
+        {
+          "Type": "DateFilter",
+          "range": true,
+          "dateAvailableFrom": null,
+          "dateAvailableTo": null,
+          "filterTextStyle": {
+            "color": null,
+            "fontSize": null,
+            "fontFamily": null,
+            "align": null,
+            "verticalAlign": null,
+            "lineHeight": null,
+            "isBold": null,
+            "isItalic": null
+          },
+          "guid": "34ea2bee61fb47a7b118dc66049513f1",
+          "type": "DateFilter",
+          "position": {
+            "x": 799,
+            "y": 30
+          },
+          "positionLocked": true,
+          "size": {
+            "width": 250,
+            "height": 100
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "Фильтр по датам",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": "rgb(181,181,181)",
+              "fontSize": 17,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": false,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 4,
+          "allowExport": null,
+          "allowSort": null,
+          "multiselectEnabled": true,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "drilldownEnabled": false,
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
           "dataSettings": {
             "columns": [
               {
                 "type": 0,
-                "dataRoleName": "Legend",
-                "tableName": "goods",
-                "name": "category",
-                "displayName": "category",
-                "expression": null,
-                "summarizeBy": 2,
-                "formatString": null,
-                "conditionalFormatting": {
-                  "font": null,
-                  "background": null,
-                  "icons": null
-                }
-              },
-              {
-                "type": 1,
-                "dataRoleName": "Values",
-                "tableName": "fact_rur",
-                "name": "Выручка",
-                "displayName": "Выручка",
+                "dataRoleName": "Field",
+                "tableName": "Календарь оплаты",
+                "name": "Дата",
+                "displayName": "Дата",
                 "expression": null,
                 "summarizeBy": 2,
                 "formatString": null,
@@ -315,27 +494,473 @@
           },
           "filters": [],
           "dataSort": {
-            "columns": [
-              {
-                "name": "Выручка",
-                "tableName": "fact_rur",
-                "desc": true
-              }
-            ]
+            "columns": []
           },
           "dataRoles": [
             {
-              "name": "Legend",
-              "displayName": "Условные обозначения",
+              "name": "Field",
+              "displayName": "Поле",
               "description": "",
               "kind": 0,
               "optional": false
+            }
+          ],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        },
+        {
+          "Type": "Filter",
+          "multiselectEnabled": true,
+          "excludingDisplayed": null,
+          "searchEnabled": null,
+          "bodyBackgroundColor": null,
+          "drilldownEnabled": true,
+          "resetSelectedValuesAllowed": null,
+          "existingInTablesEnabled": false,
+          "selectedTables": [],
+          "textFormatter": {
+            "enabled": false,
+            "text": "@value"
+          },
+          "filterTextStyle": {
+            "color": null,
+            "fontSize": null,
+            "fontFamily": null,
+            "align": null,
+            "verticalAlign": null,
+            "lineHeight": null,
+            "isBold": null,
+            "isItalic": null
+          },
+          "guid": "1c6e5d68c01348f9978c29fb76c8d4ab",
+          "type": "Filter",
+          "position": {
+            "x": 1064,
+            "y": 30
+          },
+          "positionLocked": true,
+          "size": {
+            "width": 250,
+            "height": 100
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "Город",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
             },
+            "textStyle": {
+              "color": "rgb(181,181,181)",
+              "fontSize": 17,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": false,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 5,
+          "allowExport": null,
+          "allowSort": null,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": [
+              {
+                "type": 0,
+                "dataRoleName": "Field",
+                "tableName": "cities of sale",
+                "name": "city",
+                "displayName": "city",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              }
+            ]
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [
             {
-              "name": "Values",
-              "displayName": "Значения",
+              "name": "Field",
+              "displayName": "Поле",
               "description": "",
-              "kind": 1,
+              "kind": 2,
+              "optional": false
+            }
+          ],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        },
+        {
+          "Type": "Filter",
+          "multiselectEnabled": true,
+          "excludingDisplayed": null,
+          "searchEnabled": null,
+          "bodyBackgroundColor": null,
+          "drilldownEnabled": true,
+          "resetSelectedValuesAllowed": null,
+          "existingInTablesEnabled": false,
+          "selectedTables": [],
+          "textFormatter": {
+            "enabled": false,
+            "text": "@value"
+          },
+          "filterTextStyle": {
+            "color": null,
+            "fontSize": null,
+            "fontFamily": null,
+            "align": null,
+            "verticalAlign": null,
+            "lineHeight": null,
+            "isBold": null,
+            "isItalic": null
+          },
+          "guid": "95b31cbcec3b41caad7647266e3ae54f",
+          "type": "Filter",
+          "position": {
+            "x": 1330,
+            "y": 30
+          },
+          "positionLocked": true,
+          "size": {
+            "width": 250,
+            "height": 100
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "Подкатегория товаров",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": "rgb(181,181,181)",
+              "fontSize": 17,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": false,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 6,
+          "allowExport": null,
+          "allowSort": null,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": [
+              {
+                "type": 0,
+                "dataRoleName": "Field",
+                "tableName": "Category_goods",
+                "name": "subcategory",
+                "displayName": "subcategory",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              }
+            ]
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [
+            {
+              "name": "Field",
+              "displayName": "Поле",
+              "description": "",
+              "kind": 2,
+              "optional": false
+            }
+          ],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        },
+        {
+          "Type": "Filter",
+          "multiselectEnabled": true,
+          "excludingDisplayed": null,
+          "searchEnabled": null,
+          "bodyBackgroundColor": null,
+          "drilldownEnabled": true,
+          "resetSelectedValuesAllowed": null,
+          "existingInTablesEnabled": false,
+          "selectedTables": [],
+          "textFormatter": {
+            "enabled": false,
+            "text": "@value"
+          },
+          "filterTextStyle": {
+            "color": null,
+            "fontSize": null,
+            "fontFamily": null,
+            "align": null,
+            "verticalAlign": null,
+            "lineHeight": null,
+            "isBold": null,
+            "isItalic": null
+          },
+          "guid": "3af256fba40e4828b60051ce512ccf80",
+          "type": "Filter",
+          "position": {
+            "x": 1599,
+            "y": 30
+          },
+          "positionLocked": true,
+          "size": {
+            "width": 250,
+            "height": 100
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "Наименование продукта",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": "rgb(181,181,181)",
+              "fontSize": 17,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": false,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 7,
+          "allowExport": null,
+          "allowSort": null,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": [
+              {
+                "type": 0,
+                "dataRoleName": "Field",
+                "tableName": "Category_goods",
+                "name": "name",
+                "displayName": "name",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              }
+            ]
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [
+            {
+              "name": "Field",
+              "displayName": "Поле",
+              "description": "",
+              "kind": 2,
               "optional": false
             }
           ],
@@ -369,7 +994,7 @@
           "yAxis": {
             "enabled": null,
             "lineEnabled": false,
-            "zoomEnabled": true,
+            "zoomEnabled": null,
             "isLogarithmic": null,
             "showOnlyIntValues": null,
             "logarithmicTickInterval": null,
@@ -409,9 +1034,9 @@
               "enabled": false,
               "formatter": null,
               "textStyle": {
-                "color": "rgba(255,255,255,1)",
-                "fontSize": 17,
-                "fontFamily": "Open Sans",
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
                 "align": null,
                 "verticalAlign": null,
                 "lineHeight": null,
@@ -422,7 +1047,7 @@
             "grid": {
               "enabled": false
             },
-            "min": 0.0,
+            "min": null,
             "max": null,
             "interval": null,
             "plotLines": [],
@@ -526,12 +1151,12 @@
               }
             },
             "labels": {
-              "enabled": true,
+              "enabled": null,
               "formatter": null,
               "textStyle": {
-                "color": "rgba(181,181,181,1)",
+                "color": "rgb(181,181,181)",
                 "fontSize": 17,
-                "fontFamily": "Open Sans",
+                "fontFamily": null,
                 "align": null,
                 "verticalAlign": null,
                 "lineHeight": null,
@@ -549,46 +1174,12 @@
           },
           "series": [
             {
-              "name": null,
+              "name": "Выручка",
               "id": "Выручка",
-              "type": 1,
-              "color": {
-                "colorType": 0,
-                "color": "rgba(64,132,217,1)",
-                "gradientColor": {
-                  "colorStart": "rgba(0,0,0,0.235294117647059)",
-                  "colorEnd": "rgba(0,0,0,0.235294117647059)"
-                }
-              },
-              "border": {
-                "color": {
-                  "colorType": 0,
-                  "color": "rgba(90,90,90,1)",
-                  "gradientColor": {
-                    "colorStart": "rgba(220,220,220,1)",
-                    "colorEnd": "rgba(90,90,90,1)"
-                  }
-                },
-                "width": 2,
-                "enabled": false
-              },
-              "smoothLine": true,
-              "zIndex": null,
-              "points": [],
-              "dashStyle": 0,
-              "marker": {
-                "enabled": true
-              },
-              "lineWidth": 4.0,
-              "useYAxisOpposite": false
-            },
-            {
-              "name": null,
-              "id": "Выручка 2",
               "type": 2,
               "color": {
                 "colorType": 0,
-                "color": "rgba(42,40,85,0.482352941176471)",
+                "color": "rgba(42,40,85,0.44)",
                 "gradientColor": {
                   "colorStart": "rgba(220,220,220,1)",
                   "colorEnd": "rgba(90,90,90,1)"
@@ -615,55 +1206,89 @@
               },
               "lineWidth": null,
               "useYAxisOpposite": false
+            },
+            {
+              "name": "Выручка 2",
+              "id": "Выручка 2",
+              "type": 1,
+              "color": {
+                "colorType": 0,
+                "color": "rgb(64,132,217)",
+                "gradientColor": {
+                  "colorStart": "rgba(220,220,220,1)",
+                  "colorEnd": "rgba(90,90,90,1)"
+                }
+              },
+              "border": {
+                "color": {
+                  "colorType": 0,
+                  "color": "rgba(90,90,90,1)",
+                  "gradientColor": {
+                    "colorStart": "rgba(220,220,220,1)",
+                    "colorEnd": "rgba(90,90,90,1)"
+                  }
+                },
+                "width": 2,
+                "enabled": false
+              },
+              "smoothLine": true,
+              "zIndex": null,
+              "points": [],
+              "dashStyle": 0,
+              "marker": {
+                "enabled": true
+              },
+              "lineWidth": null,
+              "useYAxisOpposite": false
             }
           ],
           "dataLabels": {
             "enabled": true,
             "formatter": "Math.round(@value.y/1000).toString().replace(/(?!^)(?=(?:\\d{3})+(?:\\.|$))/gm, ' ')",
             "textStyle": {
-              "color": "rgba(255,255,255,1)",
+              "color": "rgb(255,255,255)",
               "fontSize": 21,
-              "fontFamily": "Open Sans",
+              "fontFamily": null,
               "align": null,
               "verticalAlign": null,
               "lineHeight": null,
               "isBold": null,
               "isItalic": null
             },
-            "allowOverlap": false
+            "allowOverlap": null
           },
           "tooltip": {
             "textStyle": {
               "color": null,
-              "fontSize": 20,
-              "fontFamily": "Times New Roman",
+              "fontSize": null,
+              "fontFamily": null,
               "align": null,
               "verticalAlign": null,
               "lineHeight": null,
               "isBold": null,
               "isItalic": null
             },
-            "headerEnabled": true,
-            "formatter": "",
-            "valueDisplayType": 1
+            "headerEnabled": null,
+            "formatter": null,
+            "valueDisplayType": null
           },
           "nullDataHandling": null,
           "multiselectEnabled": false,
           "drilldownEnabled": true,
-          "guid": "0296cb1e4f914c118587e31cfb8768c7",
+          "guid": "48185a67148c475c849b2483c1255f6f",
           "type": "Chart",
           "position": {
-            "x": 50,
-            "y": 150
+            "x": 55,
+            "y": 153
           },
           "positionLocked": true,
           "size": {
-            "width": 898,
-            "height": 429
+            "width": 892,
+            "height": 419
           },
           "title": {
             "enabled": null,
-            "autoSize": false,
+            "autoSize": null,
             "text": "   Выручка, млн руб.",
             "link": "",
             "linkEnabled": null,
@@ -679,9 +1304,9 @@
               }
             },
             "textStyle": {
-              "color": "rgba(255,255,255,1)",
+              "color": "rgb(255,255,255)",
               "fontSize": null,
-              "fontFamily": "Open Sans",
+              "fontFamily": null,
               "align": 0,
               "verticalAlign": null,
               "lineHeight": null,
@@ -698,7 +1323,7 @@
             "style": {
               "radius": 10,
               "colorType": null,
-              "color": "rgba(0,102,0,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -709,7 +1334,7 @@
             "enabled": false,
             "color": {
               "colorType": null,
-              "color": "rgba(255,217,0,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -717,18 +1342,18 @@
             }
           },
           "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
+            "x": null,
+            "y": null,
+            "blur": null,
             "spread": null,
-            "color": "rgba(0,0,0,0.145098039215686)"
+            "color": null
           },
           "zIndex": 8,
           "allowExport": null,
           "allowSort": null,
           "colorPalette": null,
           "useCustomColors": false,
-          "codeEditableEnabled": true,
+          "codeEditableEnabled": false,
           "overriddenCode": null,
           "dataSettings": {
             "columns": [
@@ -750,24 +1375,9 @@
               {
                 "type": 0,
                 "dataRoleName": "XAxis",
-                "tableName": "Календарь доставки",
+                "tableName": "Календарь оплаты",
                 "name": "День недели",
                 "displayName": "День недели",
-                "expression": null,
-                "summarizeBy": 2,
-                "formatString": null,
-                "conditionalFormatting": {
-                  "font": null,
-                  "background": null,
-                  "icons": null
-                }
-              },
-              {
-                "type": 1,
-                "dataRoleName": "YAxis",
-                "tableName": "fact_rur",
-                "name": "Выручка 2",
-                "displayName": "Выручка 2",
                 "expression": null,
                 "summarizeBy": 2,
                 "formatString": null,
@@ -791,6 +1401,21 @@
                   "background": null,
                   "icons": null
                 }
+              },
+              {
+                "type": 1,
+                "dataRoleName": "YAxis",
+                "tableName": "fact_rur",
+                "name": "Выручка 2",
+                "displayName": "Выручка 2",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
               }
             ]
           },
@@ -805,13 +1430,7 @@
           },
           "filters": [],
           "dataSort": {
-            "columns": [
-              {
-                "name": "Месяц",
-                "tableName": "Календарь оплаты",
-                "desc": false
-              }
-            ]
+            "columns": []
           },
           "dataRoles": [
             {
@@ -846,7 +1465,7 @@
         },
         {
           "Type": "ColumnChart",
-          "isManualColumnSettings": null,
+          "isManualColumnSettings": false,
           "column": {
             "width": null,
             "padding": null,
@@ -939,12 +1558,12 @@
               }
             },
             "labels": {
-              "enabled": true,
+              "enabled": false,
               "formatter": null,
               "textStyle": {
-                "color": "rgba(255,255,255,1)",
-                "fontSize": 17,
-                "fontFamily": "Open Sans",
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
                 "align": null,
                 "verticalAlign": null,
                 "lineHeight": null,
@@ -1024,7 +1643,7 @@
             "plotBands": []
           },
           "xAxis": {
-            "lineEnabled": null,
+            "lineEnabled": true,
             "zoomEnabled": null,
             "title": {
               "enabled": false,
@@ -1062,9 +1681,9 @@
               "enabled": null,
               "formatter": null,
               "textStyle": {
-                "color": "rgba(181,181,181,1)",
+                "color": "rgb(181,181,181)",
                 "fontSize": 17,
-                "fontFamily": "Open Sans",
+                "fontFamily": null,
                 "align": null,
                 "verticalAlign": null,
                 "lineHeight": null,
@@ -1080,56 +1699,21 @@
             "plotBands": [],
             "opposite": null
           },
-          "series": [
-            {
-              "name": null,
-              "id": "Выручка",
-              "type": 1,
-              "color": {
-                "colorType": 1,
-                "color": null,
-                "gradientColor": {
-                  "colorStart": "rgba(64,132,217,0.235294117647059)",
-                  "colorEnd": "rgba(64,132,217,1)"
-                }
-              },
-              "border": {
-                "color": {
-                  "colorType": 0,
-                  "color": "rgba(90,90,90,1)",
-                  "gradientColor": {
-                    "colorStart": "rgba(220,220,220,1)",
-                    "colorEnd": "rgba(90,90,90,1)"
-                  }
-                },
-                "width": 2,
-                "enabled": false
-              },
-              "smoothLine": false,
-              "zIndex": null,
-              "points": [],
-              "dashStyle": 0,
-              "marker": {
-                "enabled": false
-              },
-              "lineWidth": null,
-              "useYAxisOpposite": false
-            }
-          ],
+          "series": [],
           "dataLabels": {
             "enabled": true,
             "formatter": "Math.round(@value.y/1000).toString().replace(/(?!^)(?=(?:\\d{3})+(?:\\.|$))/gm, ' ')",
             "textStyle": {
-              "color": "rgba(255,255,255,1)",
+              "color": "rgb(255,255,255)",
               "fontSize": 21,
-              "fontFamily": "Open Sans",
+              "fontFamily": null,
               "align": null,
               "verticalAlign": null,
               "lineHeight": null,
               "isBold": null,
               "isItalic": null
             },
-            "allowOverlap": false
+            "allowOverlap": null
           },
           "tooltip": {
             "textStyle": {
@@ -1144,25 +1728,25 @@
             },
             "headerEnabled": null,
             "formatter": null,
-            "valueDisplayType": 2
+            "valueDisplayType": null
           },
           "nullDataHandling": null,
           "multiselectEnabled": false,
           "drilldownEnabled": true,
-          "guid": "0eaf289946904d0d9dd9ad949b8cf7e9",
+          "guid": "2f70a76b993b405f9f0a5e07258e5009",
           "type": "ColumnChart",
           "position": {
-            "x": 967,
-            "y": 150
+            "x": 972,
+            "y": 154
           },
-          "positionLocked": true,
+          "positionLocked": false,
           "size": {
-            "width": 900,
-            "height": 430
+            "width": 887,
+            "height": 423
           },
           "title": {
             "enabled": null,
-            "autoSize": false,
+            "autoSize": null,
             "text": "   Выручка по городам, млн руб.",
             "link": "",
             "linkEnabled": null,
@@ -1178,9 +1762,9 @@
               }
             },
             "textStyle": {
-              "color": "rgba(255,255,255,1)",
+              "color": "rgb(255,255,255)",
               "fontSize": null,
-              "fontFamily": "Open Sans",
+              "fontFamily": null,
               "align": 0,
               "verticalAlign": null,
               "lineHeight": null,
@@ -1197,7 +1781,7 @@
             "style": {
               "radius": 10,
               "colorType": null,
-              "color": "rgba(0,102,0,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -1208,7 +1792,7 @@
             "enabled": false,
             "color": {
               "colorType": null,
-              "color": "rgba(0,0,0,0.454901960784314)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -1216,11 +1800,11 @@
             }
           },
           "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
+            "x": null,
+            "y": null,
+            "blur": null,
             "spread": null,
-            "color": "rgba(0,0,0,0.145098039215686)"
+            "color": null
           },
           "zIndex": 9,
           "allowExport": null,
@@ -1228,15 +1812,30 @@
           "colorPalette": null,
           "useCustomColors": false,
           "codeEditableEnabled": true,
-          "overriddenCode": "\nw.plotOptions.series.borderRadius = 6;\nw.plotOptions.series.dataLabels.style.textOutline = 'none';\nw.plotOptions.column = {\n    borderWidth: 0\n}\n\nHighcharts.chart({\n    chart: w.general,\n    xAxis: w.xAxis,\n    yAxis: w.yAxis,\n    plotOptions: w.plotOptions,\n    series: w.series,\n    drilldown: w.drilldown,\n    legend: w.legend,\n    tooltip: w.tooltip\n});",
+          "overriddenCode": "w.series[0].data.forEach(item =>{\n    item.color=item.y>1?\"green\":\"red\"\n})\n\nw.plotOptions.series.borderRadius = 6;\nw.plotOptions.series.dataLabels.style.textOutline = 'none';\nw.plotOptions.column = {\n    borderWidth: 0\n}\n\nHighcharts.chart({\n    chart: w.general,\n    xAxis: w.xAxis,\n    yAxis: w.yAxis,\n    plotOptions: w.plotOptions,\n    series: w.series,\n    drilldown: w.drilldown,\n    legend: w.legend,\n    tooltip: w.tooltip\n});",
           "dataSettings": {
             "columns": [
               {
                 "type": 0,
                 "dataRoleName": "XAxis",
-                "tableName": "Город продажи",
+                "tableName": "cities of sale",
                 "name": "city",
                 "displayName": "city",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 1,
+                "dataRoleName": "YAxis",
+                "tableName": "fact_rur",
+                "name": "Выручка",
+                "displayName": "Выручка",
                 "expression": null,
                 "summarizeBy": 2,
                 "formatString": null,
@@ -1260,21 +1859,6 @@
                   "background": null,
                   "icons": null
                 }
-              },
-              {
-                "type": 1,
-                "dataRoleName": "YAxis",
-                "tableName": "fact_rur",
-                "name": "Выручка",
-                "displayName": null,
-                "expression": null,
-                "summarizeBy": 2,
-                "formatString": null,
-                "conditionalFormatting": {
-                  "font": null,
-                  "background": null,
-                  "icons": null
-                }
               }
             ]
           },
@@ -1289,13 +1873,7 @@
           },
           "filters": [],
           "dataSort": {
-            "columns": [
-              {
-                "name": "Выручка",
-                "tableName": "fact_rur",
-                "desc": false
-              }
-            ]
+            "columns": []
           },
           "dataRoles": [
             {
@@ -1329,44 +1907,106 @@
           "hasFilterInByNullValue": false
         },
         {
-          "Type": "Filter",
-          "multiselectEnabled": true,
-          "excludingDisplayed": null,
-          "searchEnabled": null,
-          "bodyBackgroundColor": "rgba(24,25,30,1)",
-          "drilldownEnabled": true,
-          "resetSelectedValuesAllowed": null,
-          "existingInTablesEnabled": false,
-          "selectedTables": [],
-          "textFormatter": {
-            "enabled": false,
-            "text": "@value"
+          "Type": "PieChart",
+          "circleSize": 90,
+          "circleInnerSize": null,
+          "centerTitle": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
           },
-          "filterTextStyle": {
-            "color": "rgba(255,255,255,1)",
-            "fontSize": 17,
-            "fontFamily": "Open Sans",
-            "align": null,
-            "verticalAlign": null,
-            "lineHeight": null,
-            "isBold": null,
-            "isItalic": null
+          "legend": {
+            "enabled": null,
+            "textStyle": {
+              "color": "rgb(255,255,255)",
+              "fontSize": 19,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "horizontalAlign": 2,
+            "verticalAlign": 1,
+            "layout": 1
           },
-          "guid": "d9741d6793fa4645a009972373016198",
-          "type": "Filter",
+          "series": [],
+          "pieDataLabels": {
+            "textStyle": {
+              "color": null,
+              "fontSize": 21,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "valueDisplayType": null,
+            "formatter": null,
+            "distance": 10
+          },
+          "tooltip": {
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "headerEnabled": null,
+            "formatter": null,
+            "valueDisplayType": null
+          },
+          "dataLabelsFormatter": null,
+          "multiselectEnabled": false,
+          "drilldownEnabled": false,
+          "guid": "a4f57235e9594c0ebc0f04fffe02619b",
+          "type": "PieChart",
           "position": {
-            "x": 1050,
-            "y": 30
+            "x": 54,
+            "y": 602
           },
-          "positionLocked": true,
+          "positionLocked": false,
           "size": {
-            "width": 250,
-            "height": 100
+            "width": 894,
+            "height": 429
           },
           "title": {
             "enabled": null,
-            "autoSize": false,
-            "text": "Город",
+            "autoSize": null,
+            "text": "   Структура выручки по категориям продуктов, %.",
             "link": "",
             "linkEnabled": null,
             "background": {
@@ -1381,9 +2021,9 @@
               }
             },
             "textStyle": {
-              "color": "rgba(181,181,181,1)",
-              "fontSize": 17,
-              "fontFamily": "Open Sans",
+              "color": "rgb(255,255,255)",
+              "fontSize": 19,
+              "fontFamily": null,
               "align": 0,
               "verticalAlign": null,
               "lineHeight": null,
@@ -1398,9 +2038,9 @@
           "frame": {
             "enabled": false,
             "style": {
-              "radius": 6,
+              "radius": 10,
               "colorType": null,
-              "color": "rgba(0,102,0,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -1411,7 +2051,7 @@
             "enabled": false,
             "color": {
               "colorType": null,
-              "color": "rgba(220,248,210,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -1419,324 +2059,25 @@
             }
           },
           "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
+            "x": null,
+            "y": null,
+            "blur": null,
             "spread": null,
-            "color": "rgba(255,255,255,0)"
+            "color": null
           },
           "zIndex": 10,
           "allowExport": null,
           "allowSort": null,
           "colorPalette": null,
           "useCustomColors": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
+          "codeEditableEnabled": true,
+          "overriddenCode": "w.plotOptions.pie.dataLabels.style.color = '#FFFFFFFF';\r\nw.plotOptions.pie.dataLabels.style.textOutline = false;\r\n\r\n\r\nw.plotOptions.pie.borderWidth = 0\r\n\r\nHighcharts.chart({\r\n    chart: w.general,\r\n    plotOptions: w.plotOptions,\r\n    series: w.series,\r\n    drilldown: w.drilldown,\r\n    legend: w.legend,\r\n    tooltip: w.tooltip,\r\n    colors: w.colors\r\n});\r\n\r\n",
           "dataSettings": {
             "columns": [
               {
                 "type": 0,
-                "dataRoleName": "Field",
-                "tableName": "Город доставки",
-                "name": "city",
-                "displayName": "city",
-                "expression": null,
-                "summarizeBy": 2,
-                "formatString": null,
-                "conditionalFormatting": {
-                  "font": null,
-                  "background": null,
-                  "icons": null
-                }
-              }
-            ]
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [
-            {
-              "name": "Field",
-              "displayName": "Поле",
-              "description": "",
-              "kind": 2,
-              "optional": false
-            }
-          ],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "DateFilter",
-          "range": true,
-          "dateAvailableFrom": null,
-          "dateAvailableTo": null,
-          "filterTextStyle": {
-            "color": "rgba(24,25,30,1)",
-            "fontSize": 17,
-            "fontFamily": "Open Sans",
-            "align": null,
-            "verticalAlign": null,
-            "lineHeight": null,
-            "isBold": null,
-            "isItalic": null
-          },
-          "guid": "b7b9e85c46804e089c7eab8b3b6e2cde",
-          "type": "DateFilter",
-          "position": {
-            "x": 780,
-            "y": 30
-          },
-          "positionLocked": true,
-          "size": {
-            "width": 250,
-            "height": 100
-          },
-          "title": {
-            "enabled": null,
-            "autoSize": false,
-            "text": "Фильтр по датам",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": "rgba(255,255,255,0)",
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(181,181,181,1)",
-              "fontSize": 17,
-              "fontFamily": "Open Sans",
-              "align": 0,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": 6,
-              "colorType": null,
-              "color": "rgba(0,102,0,1)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": false,
-            "color": {
-              "colorType": null,
-              "color": "rgba(220,248,210,1)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
-            "spread": null,
-            "color": "rgba(255,255,255,0)"
-          },
-          "zIndex": 11,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
-          "dataSettings": {
-            "columns": [
-              {
-                "type": 0,
-                "dataRoleName": "Field",
-                "tableName": "Календарь оплаты",
-                "name": "Дата",
-                "displayName": "Дата",
-                "expression": null,
-                "summarizeBy": 2,
-                "formatString": null,
-                "conditionalFormatting": {
-                  "font": null,
-                  "background": null,
-                  "icons": null
-                }
-              }
-            ]
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [
-            {
-              "name": "Field",
-              "displayName": "Поле",
-              "description": "",
-              "kind": 0,
-              "optional": false
-            }
-          ],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "Filter",
-          "multiselectEnabled": true,
-          "excludingDisplayed": null,
-          "searchEnabled": null,
-          "bodyBackgroundColor": "rgba(24,25,30,1)",
-          "drilldownEnabled": true,
-          "resetSelectedValuesAllowed": null,
-          "existingInTablesEnabled": false,
-          "selectedTables": [],
-          "textFormatter": {
-            "enabled": true,
-            "text": "@value"
-          },
-          "filterTextStyle": {
-            "color": "rgba(255,255,255,1)",
-            "fontSize": 17,
-            "fontFamily": "Open Sans",
-            "align": null,
-            "verticalAlign": null,
-            "lineHeight": null,
-            "isBold": null,
-            "isItalic": null
-          },
-          "guid": "f31dfd75d43844918bd3b84f9a1affd0",
-          "type": "Filter",
-          "position": {
-            "x": 2130,
-            "y": 0
-          },
-          "positionLocked": false,
-          "size": {
-            "width": 250,
-            "height": 100
-          },
-          "title": {
-            "enabled": null,
-            "autoSize": false,
-            "text": "Категория товаров",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": "rgba(255,255,255,0)",
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(181,181,181,1)",
-              "fontSize": 17,
-              "fontFamily": "Open Sans",
-              "align": 0,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": 6,
-              "colorType": null,
-              "color": "rgba(0,102,0,1)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": false,
-            "color": {
-              "colorType": null,
-              "color": "rgba(220,248,210,1)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
-            "spread": null,
-            "color": "rgba(255,255,255,0)"
-          },
-          "zIndex": 13,
-          "allowExport": null,
-          "allowSort": null,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
-          "dataSettings": {
-            "columns": [
-              {
-                "type": 0,
-                "dataRoleName": "Field",
-                "tableName": "goods",
+                "dataRoleName": "Legend",
+                "tableName": "Category_goods",
                 "name": "category",
                 "displayName": "category",
                 "expression": null,
@@ -1747,151 +2088,13 @@
                   "background": null,
                   "icons": null
                 }
-              }
-            ]
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [
-            {
-              "name": "Field",
-              "displayName": "Поле",
-              "description": "",
-              "kind": 2,
-              "optional": false
-            }
-          ],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "Filter",
-          "multiselectEnabled": true,
-          "excludingDisplayed": null,
-          "searchEnabled": null,
-          "bodyBackgroundColor": "rgba(24,25,30,1)",
-          "drilldownEnabled": true,
-          "resetSelectedValuesAllowed": null,
-          "existingInTablesEnabled": false,
-          "selectedTables": [],
-          "textFormatter": {
-            "enabled": false,
-            "text": "@value"
-          },
-          "filterTextStyle": {
-            "color": "rgba(255,255,255,1)",
-            "fontSize": 17,
-            "fontFamily": "Open Sans",
-            "align": null,
-            "verticalAlign": null,
-            "lineHeight": null,
-            "isBold": null,
-            "isItalic": null
-          },
-          "guid": "ae9ae078a2114604acf980f24e42199b",
-          "type": "Filter",
-          "position": {
-            "x": 1320,
-            "y": 30
-          },
-          "positionLocked": true,
-          "size": {
-            "width": 250,
-            "height": 100
-          },
-          "title": {
-            "enabled": null,
-            "autoSize": false,
-            "text": "Подкатегория товаров",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": "rgba(255,255,255,0)",
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(181,181,181,1)",
-              "fontSize": 17,
-              "fontFamily": "Open Sans",
-              "align": 0,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": 6,
-              "colorType": null,
-              "color": "rgba(0,102,0,1)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": false,
-            "color": {
-              "colorType": null,
-              "color": "rgba(219,245,210,1)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
-            "spread": null,
-            "color": "rgba(255,255,255,0)"
-          },
-          "zIndex": 14,
-          "allowExport": null,
-          "allowSort": null,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
-          "dataSettings": {
-            "columns": [
+              },
               {
-                "type": 0,
-                "dataRoleName": "Field",
-                "tableName": "goods",
-                "name": "subcategory",
-                "displayName": "subcategory",
+                "type": 1,
+                "dataRoleName": "Values",
+                "tableName": "fact_rur",
+                "name": "Выручка",
+                "displayName": "Выручка",
                 "expression": null,
                 "summarizeBy": 2,
                 "formatString": null,
@@ -1912,16 +2115,47 @@
             "to": null,
             "useExcluding": false
           },
-          "filters": [],
+          "filters": [
+            {
+              "Type": "DataFilterIn",
+              "values": [
+                "Бакалея, сахар, соль",
+                "Консервы",
+                "Молочные Продукт",
+                "Мясо, птица",
+                "Напитки, соки",
+                "Овощи, фрукты, картофель",
+                "Пиво",
+                "Рыба, мореПродукт",
+                "Соки, нектары",
+                "Табачные изделия, спички",
+                "Хлеб, кондитерские изделия, чай, кофе"
+              ],
+              "useExcluding": false,
+              "affectOtherWidgets": false,
+              "tableName": "Category_goods",
+              "columnName": "category",
+              "dataType": null,
+              "type": "DataFilterIn",
+              "level": 0
+            }
+          ],
           "dataSort": {
             "columns": []
           },
           "dataRoles": [
             {
-              "name": "Field",
-              "displayName": "Поле",
+              "name": "Legend",
+              "displayName": "Условные обозначения",
               "description": "",
-              "kind": 2,
+              "kind": 0,
+              "optional": false
+            },
+            {
+              "name": "Values",
+              "displayName": "Значения",
+              "description": "",
+              "kind": 1,
               "optional": false
             }
           ],
@@ -1966,12 +2200,12 @@
               "autoWidthEnabled": null,
               "maxTextLength": null,
               "textFormatter": "@value",
-              "wordWrapEnabled": true,
+              "wordWrapEnabled": null,
               "formattingEnabled": false,
               "expandedLevelCount": null,
               "expanded": null,
               "textStyle": {
-                "color": "rgba(255,255,255,1)",
+                "color": "rgb(255,255,255)",
                 "fontSize": null,
                 "fontFamily": null,
                 "align": null,
@@ -1990,7 +2224,7 @@
               "backgroundFormatter": "rgba(0,0,0,0.0)",
               "formatter": null,
               "textStyle": {
-                "color": "rgba(255,255,255,1)",
+                "color": "rgb(255,255,255)",
                 "fontSize": null,
                 "fontFamily": null,
                 "align": null,
@@ -2074,7 +2308,7 @@
             "borderStyle": {
               "radius": null,
               "colorType": null,
-              "color": "rgba(255,70,69,1)",
+              "color": "rgb(255,70,69)",
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -2082,20 +2316,20 @@
             }
           },
           "drilldownEnabled": true,
-          "guid": "83369ed958734215b497b4d4fd1888a0",
+          "guid": "36900a8768f44129838b676a81f76100",
           "type": "OlapTable",
           "position": {
-            "x": 967,
-            "y": 600
+            "x": 970,
+            "y": 601
           },
           "positionLocked": true,
           "size": {
-            "width": 900,
-            "height": 429
+            "width": 894,
+            "height": 422
           },
           "title": {
             "enabled": null,
-            "autoSize": false,
+            "autoSize": null,
             "text": "   Доля продаж, %",
             "link": "",
             "linkEnabled": null,
@@ -2103,7 +2337,7 @@
               "enabled": null,
               "color": {
                 "colorType": null,
-                "color": "rgba(255,255,255,0)",
+                "color": "rgba(248,249,250,0)",
                 "gradientColor": {
                   "colorStart": null,
                   "colorEnd": null
@@ -2111,9 +2345,9 @@
               }
             },
             "textStyle": {
-              "color": "rgba(255,255,255,1)",
+              "color": "rgb(255,255,255)",
               "fontSize": null,
-              "fontFamily": "Open Sans",
+              "fontFamily": null,
               "align": 0,
               "verticalAlign": null,
               "lineHeight": null,
@@ -2130,7 +2364,7 @@
             "style": {
               "radius": 10,
               "colorType": null,
-              "color": "rgba(219,245,210,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -2141,7 +2375,7 @@
             "enabled": false,
             "color": {
               "colorType": null,
-              "color": "rgba(255,255,255,1)",
+              "color": null,
               "gradientColor": {
                 "colorStart": null,
                 "colorEnd": null
@@ -2149,13 +2383,13 @@
             }
           },
           "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
+            "x": null,
+            "y": null,
+            "blur": null,
             "spread": null,
-            "color": "rgba(0,0,0,0.145098039215686)"
+            "color": null
           },
-          "zIndex": 15,
+          "zIndex": 11,
           "allowExport": null,
           "allowSort": null,
           "multiselectEnabled": true,
@@ -2168,7 +2402,7 @@
               {
                 "type": 0,
                 "dataRoleName": "Rows",
-                "tableName": "goods",
+                "tableName": "Category_goods",
                 "name": "category",
                 "displayName": "category",
                 "expression": null,
@@ -2183,7 +2417,7 @@
               {
                 "type": 0,
                 "dataRoleName": "Rows",
-                "tableName": "goods",
+                "tableName": "Category_goods",
                 "name": "subcategory",
                 "displayName": "subcategory",
                 "expression": null,
@@ -2198,7 +2432,7 @@
               {
                 "type": 0,
                 "dataRoleName": "Columns",
-                "tableName": "Город продажи",
+                "tableName": "cities of sale",
                 "name": "city",
                 "displayName": "city",
                 "expression": null,
@@ -2214,8 +2448,8 @@
                 "type": 1,
                 "dataRoleName": "Values",
                 "tableName": "fact_rur",
-                "name": "По категории",
-                "displayName": "По категории",
+                "name": "% по категории",
+                "displayName": "% по категории",
                 "expression": null,
                 "summarizeBy": 2,
                 "formatString": "de s",
@@ -2229,8 +2463,8 @@
                 "type": 1,
                 "dataRoleName": "Values",
                 "tableName": "fact_rur",
-                "name": "По подкатегории",
-                "displayName": "По подкатегории",
+                "name": "% по подкатегории",
+                "displayName": "% по подкатегории",
                 "expression": null,
                 "summarizeBy": 2,
                 "formatString": "de s",
@@ -2287,285 +2521,20 @@
           "hasFilterInByNullValue": false
         },
         {
-          "Type": "Filter",
-          "multiselectEnabled": true,
-          "excludingDisplayed": null,
-          "searchEnabled": null,
-          "bodyBackgroundColor": "rgba(24,25,30,1)",
-          "drilldownEnabled": true,
-          "resetSelectedValuesAllowed": null,
-          "existingInTablesEnabled": false,
-          "selectedTables": [],
-          "textFormatter": {
-            "enabled": true,
-            "text": "@value"
-          },
-          "filterTextStyle": {
-            "color": "rgba(255,255,255,1)",
-            "fontSize": 17,
-            "fontFamily": "Open Sans",
-            "align": null,
-            "verticalAlign": null,
-            "lineHeight": null,
-            "isBold": null,
-            "isItalic": null
-          },
-          "guid": "510d785a3313491b928c1f6290a28e78",
-          "type": "Filter",
-          "position": {
-            "x": 1590,
-            "y": 30
-          },
-          "positionLocked": true,
-          "size": {
-            "width": 250,
-            "height": 100
-          },
-          "title": {
-            "enabled": null,
-            "autoSize": false,
-            "text": "Наименование продукта",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": "rgba(255,255,255,0)",
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(181,181,181,1)",
-              "fontSize": 17,
-              "fontFamily": "Open Sans",
-              "align": 0,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": true,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": 6,
-              "colorType": null,
-              "color": "rgba(0,102,0,1)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": false,
-            "color": {
-              "colorType": null,
-              "color": "rgba(220,248,210,1)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": 10,
-            "y": 10,
-            "blur": 20,
-            "spread": null,
-            "color": "rgba(255,255,255,0)"
-          },
-          "zIndex": 16,
-          "allowExport": null,
-          "allowSort": null,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
-          "dataSettings": {
-            "columns": [
-              {
-                "type": 0,
-                "dataRoleName": "Field",
-                "tableName": "goods",
-                "name": "name",
-                "displayName": "name",
-                "expression": null,
-                "summarizeBy": 2,
-                "formatString": null,
-                "conditionalFormatting": {
-                  "font": null,
-                  "background": null,
-                  "icons": null
-                }
-              }
-            ]
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [
-            {
-              "name": "Field",
-              "displayName": "Поле",
-              "description": "",
-              "kind": 2,
-              "optional": false
-            }
-          ],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
           "Type": "ImageWidget",
           "base64": null,
           "fileGuid": null,
           "imageAlignment": null,
-          "guid": "4631f4cb13e44487b95302a89988aca8",
+          "guid": "294751d30aa142a49bc9a02c78eaca7d",
           "type": "ImageWidget",
           "position": {
-            "x": 210,
-            "y": 50
-          },
-          "positionLocked": false,
-          "size": {
-            "width": 250,
-            "height": 60
-          },
-          "title": {
-            "enabled": true,
-            "autoSize": null,
-            "text": "Visiology 3.9",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": "rgba(255,255,255,0)",
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(255,255,255,1)",
-              "fontSize": 36,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": false,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": null,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": true,
-            "color": {
-              "colorType": null,
-              "color": "rgba(255,255,255,0)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": null,
-            "y": null,
-            "blur": null,
-            "spread": null,
-            "color": null
-          },
-          "zIndex": 17,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
-          "dataSettings": {
-            "columns": []
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "ImageWidget",
-          "base64": null,
-          "fileGuid": "95321bdafb0e4cd18e85d3e20ed3fa36",
-          "imageAlignment": null,
-          "guid": "65b46a43a02d4cd39940f34640a5b06a",
-          "type": "ImageWidget",
-          "position": {
-            "x": 0,
-            "y": 0
+            "x": 1159,
+            "y": 618
           },
           "positionLocked": true,
           "size": {
-            "width": 1916,
-            "height": 1080
+            "width": 54,
+            "height": 31
           },
           "title": {
             "enabled": false,
@@ -2600,7 +2569,7 @@
             }
           },
           "frame": {
-            "enabled": null,
+            "enabled": false,
             "style": {
               "radius": null,
               "colorType": null,
@@ -2629,567 +2598,7 @@
             "spread": null,
             "color": null
           },
-          "zIndex": 6,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
-          "dataSettings": {
-            "columns": []
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "ImageWidget",
-          "base64": null,
-          "fileGuid": "8d4a545960eb4cb58ae9972b67a8e6e8",
-          "imageAlignment": null,
-          "guid": "fcdf8e88445e47f08c471ee04690b51e",
-          "type": "ImageWidget",
-          "position": {
-            "x": 3330,
-            "y": 20830
-          },
-          "positionLocked": false,
-          "size": {
-            "width": 1950,
-            "height": 1110
-          },
-          "title": {
-            "enabled": false,
-            "autoSize": null,
-            "text": "Изображение 3",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": null,
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": null,
-              "fontSize": null,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": null,
-            "style": {
-              "radius": null,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": null,
-            "color": {
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": null,
-            "y": null,
-            "blur": null,
-            "spread": null,
-            "color": null
-          },
-          "zIndex": 5,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
-          "dataSettings": {
-            "columns": []
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "ImageWidget",
-          "base64": null,
-          "fileGuid": null,
-          "imageAlignment": null,
-          "guid": "832e64c634eb446ea24a6bc9cfffb920",
-          "type": "ImageWidget",
-          "position": {
-            "x": 260,
-            "y": 170
-          },
-          "positionLocked": false,
-          "size": {
-            "width": 26,
-            "height": 27
-          },
-          "title": {
-            "enabled": false,
-            "autoSize": null,
-            "text": "   Выручка, млн руб.",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": null,
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(255,255,255,1)",
-              "fontSize": null,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": 10,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": false,
-            "color": {
-              "colorType": null,
-              "color": "rgba(255,217,0,0.917647058823529)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": null,
-            "y": null,
-            "blur": null,
-            "spread": null,
-            "color": null
-          },
-          "zIndex": 18,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": true,
-          "overriddenCode": "$('#'+w.general.renderTo).html('<div class=\"popup\"><b> ⓘ </b>\\\n                                    <span class=\"popuptext\" id=\"myPopup\"><p> На виджете показана выручка в разрезе месяцев и посчитана по формуле Выручка = <strong>SUM</strong>(<em>fact-rur</em>[price])-SUM(fact-rur[purchase-price])-SUM(\\' <em>fact-rur</em>\\'[discount]) ]), формула сначала считает сумму всех значений в заданных столбцах и затем, из суммы значений столбца price вычитает значения закупочной цены purchase-price и скидки discount.<br> Так же добавлена функция Drill Down, с помощью которой можно посмотреть выручку в каждом месяце по дням недели.</p></span>\\\n                                </div>');\n\nvar style = '<style>\\\n                /* Popup container */\\\n                .popup {\\\n                    position: fixed;\\\n                    display: inline-block;\\\n                    cursor: pointer;\\\n                    font-size: 24px;\\\n                    color: #999;\\\n                }\\\n                \\\n                /* The actual popup (appears on top) */\\\n                .popup .popuptext {\\\n                    visibility: hidden;\\\n                    width: 1000px;\\\n                    background-color: #333;\\\n                    color: #fff;\\\n                    text-align: left;\\\n                    border-radius: 6px;\\\n                    padding: 8px ;\\\n                    position: absolute;\\\n                    z-index: 1;\\\n                    bottom: 10%;\\\n                    left: -10%;\\\n                    margin-left: -150px;\\\n                }\\\n                \\\n                /* Popup arrow */\\\n                .popup .popuptext::after {\\\n                    content: \"\";\\\n                    position: absolute;\\\n                    top: 100%;\\\n                    left: 50%;\\\n                    margin-left: -5px;\\\n                    border-width: 5px;\\\n                    border-style: solid;\\\n                    border-color: #555 transparent transparent transparent;\\\n                }\\\n                \\\n                /* Toggle this class when clicking on the popup container (hide and show the popup) */\\\n                .popup .show {\\\n                    visibility: visible;\\\n                    -webkit-animation: fadeIn 1s;\\\n                    animation: fadeIn 1s\\\n                }\\\n                \\\n                /* Add animation (fade in the popup) */\\\n                @-webkit-keyframes fadeIn {\\\n                    from {opacity: 0;}\\\n                    to {opacity: 1;}\\\n                }\\\n                \\\n                @keyframes fadeIn {\\\n                    from {opacity: 0;}\\\n                    to {opacity:1 ;}\\\n                }\\\n            </style>';\n\n$('head').append(style)\n\nvar popup = $(\"#myPopup\");\n\n$('#'+w.general.renderTo).mouseover(function() {\n    popup.toggleClass(\"show\")\n});\n$('#'+w.general.renderTo).mouseout(function() {\n    popup.toggleClass(\"show\")\n});\n",
-          "dataSettings": {
-            "columns": []
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "ImageWidget",
-          "base64": null,
-          "fileGuid": null,
-          "imageAlignment": null,
-          "guid": "1b0f0a6a3573449e9a133457a4a2031d",
-          "type": "ImageWidget",
-          "position": {
-            "x": 1290,
-            "y": 160
-          },
-          "positionLocked": true,
-          "size": {
-            "width": 26,
-            "height": 27
-          },
-          "title": {
-            "enabled": false,
-            "autoSize": null,
-            "text": "   Выручка, млн руб. - копия",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": null,
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(255,255,255,1)",
-              "fontSize": null,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": 10,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": false,
-            "color": {
-              "colorType": null,
-              "color": "rgba(255,217,0,0.917647058823529)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": null,
-            "y": null,
-            "blur": null,
-            "spread": null,
-            "color": null
-          },
-          "zIndex": 19,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": true,
-          "overriddenCode": "$('#'+w.general.renderTo).html('<div class=\"popup\"><b> ⓘ </b>\\\n                                    <span class=\"popuptext\" id=\"myPopup1\"><p> По умолчанию все фильтры влияют на все виджеты. Также доступно взаимное влияние виджетов, нажмите 1 раз на интересующий показатель и данные на остальных виджетах отфильтруются по нему.</p></span>\\\n                                </div>');\n\nvar style = '<style>\\\n                /* Popup container */\\\n                .popup {\\\n                    position: relative;\\\n                    display: inline-block;\\\n                    cursor: pointer;\\\n                    font-size: 24px;\\\n                    color: #999;\\\n                }\\\n                \\\n                /* The actual popup (appears on top) */\\\n                .popup .popuptext {\\\n                    visibility: hidden;\\\n                    width: 1000px;\\\n                    background-color: #333;\\\n                    color: #fff;\\\n                    text-align: left;\\\n                    border-radius: 6px;\\\n                    padding: 8px 0;\\\n                    position: fixed;\\\n                    z-index: 1;\\\n                    bottom: -200%;\\\n                    left: 50%;\\\n                    margin-left: -100px;\\\n                }\\\n                \\\n                /* Popup arrow */\\\n                .popup .popuptext::after {\\\n                    content: \"\";\\\n                    position: absolute;\\\n                    top: 100%;\\\n                    left: 50%;\\\n                    margin-left: -5px;\\\n                    border-width: 5px;\\\n                    border-style: solid;\\\n                    border-color: #555 transparent transparent transparent;\\\n                }\\\n                \\\n                /* Toggle this class when clicking on the popup container (hide and show the popup) */\\\n                .popup .show {\\\n                    visibility: visible;\\\n                    -webkit-animation: fadeIn 1s;\\\n                    animation: fadeIn 1s\\\n                }\\\n                \\\n                /* Add animation (fade in the popup) */\\\n                @-webkit-keyframes fadeIn {\\\n                    from {opacity: 0;}\\\n                    to {opacity: 1;}\\\n                }\\\n                \\\n                @keyframes fadeIn {\\\n                    from {opacity: 0;}\\\n                    to {opacity:1 ;}\\\n                }\\\n            </style>';\n\n$('head').append(style)\n\nvar popup = $(\"#myPopup1\");\n\n$('#'+w.general.renderTo).mouseover(function() {\n    popup.toggleClass(\"show\")\n});\n$('#'+w.general.renderTo).mouseout(function() {\n    popup.toggleClass(\"show\")\n});\n",
-          "dataSettings": {
-            "columns": []
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "ImageWidget",
-          "base64": null,
-          "fileGuid": null,
-          "imageAlignment": null,
-          "guid": "6e03638c24b14868b348f06b7e5d6951",
-          "type": "ImageWidget",
-          "position": {
-            "x": 550,
-            "y": 610
-          },
-          "positionLocked": false,
-          "size": {
-            "width": 26,
-            "height": 27
-          },
-          "title": {
-            "enabled": false,
-            "autoSize": null,
-            "text": "   Выручка, млн руб. - копия 1",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": null,
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(255,255,255,1)",
-              "fontSize": null,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": 10,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": false,
-            "color": {
-              "colorType": null,
-              "color": "rgba(255,217,0,0.917647058823529)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": null,
-            "y": null,
-            "blur": null,
-            "spread": null,
-            "color": null
-          },
-          "zIndex": 20,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": true,
-          "overriddenCode": "$('#'+w.general.renderTo).html('<div class=\"popup\"><b> ⓘ </b>\\\n                                    <span class=\"popuptext\" id=\"myPopup3\"><p> Включить сортировку отображения на виджете можно нажав на 3 точки в верхнем правом углу виджета. <br>  <br> Интересный факт: день рождения Visiology считается  19 января 2015 года.</p></span>\\\n                                </div>');\n\nvar style = '<style>\\\n                /* Popup container */\\\n                .popup {\\\n                    position: relative;\\\n                    display: inline-block;\\\n                    cursor: pointer;\\\n                    font-size: 24px;\\\n                    color: #999;\\\n                }\\\n                \\\n                /* The actual popup (appears on top) */\\\n                .popup .popuptext {\\\n                    visibility: hidden;\\\n                    width: 1000px;\\\n                    background-color: #333;\\\n                    color: #fff;\\\n                    text-align: left;\\\n                    border-radius: 6px;\\\n                    padding: 8px 2;\\\n                    position: absolute;\\\n                    z-index: 1;\\\n                    bottom: -500%;\\\n                    left: 50%;\\\n                    margin-left: -500px;\\\n                }\\\n                \\\n                /* Popup arrow */\\\n                .popup .popuptext::after {\\\n                    content: \"\";\\\n                    position: absolute;\\\n                    top: 100%;\\\n                    left: 50%;\\\n                    margin-left: -5px;\\\n                    border-width: 5px;\\\n                    border-style: solid;\\\n                    border-color: #555 transparent transparent transparent;\\\n                }\\\n                \\\n                /* Toggle this class when clicking on the popup container (hide and show the popup) */\\\n                .popup .show {\\\n                    visibility: visible;\\\n                    -webkit-animation: fadeIn 1s;\\\n                    animation: fadeIn 1s\\\n                }\\\n                \\\n                /* Add animation (fade in the popup) */\\\n                @-webkit-keyframes fadeIn {\\\n                    from {opacity: 0;}\\\n                    to {opacity: 1;}\\\n                }\\\n                \\\n                @keyframes fadeIn {\\\n                    from {opacity: 0;}\\\n                    to {opacity:1 ;}\\\n                }\\\n            </style>';\n\n$('head').append(style)\n\nvar popup = $(\"#myPopup3\");\n\n$('#'+w.general.renderTo).mouseover(function() {\n    popup.toggleClass(\"show\")\n});\n$('#'+w.general.renderTo).mouseout(function() {\n    popup.toggleClass(\"show\")\n});\n",
-          "dataSettings": {
-            "columns": []
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "ImageWidget",
-          "base64": null,
-          "fileGuid": null,
-          "imageAlignment": null,
-          "guid": "8228dd015d1a480cb855cd946b9aa139",
-          "type": "ImageWidget",
-          "position": {
-            "x": 1174,
-            "y": 612
-          },
-          "positionLocked": true,
-          "size": {
-            "width": 26,
-            "height": 27
-          },
-          "title": {
-            "enabled": false,
-            "autoSize": null,
-            "text": "   Выручка, млн руб. - копия 2",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": null,
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": "rgba(255,255,255,1)",
-              "fontSize": null,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": false,
-            "style": {
-              "radius": 10,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": false,
-            "color": {
-              "colorType": null,
-              "color": "rgba(255,217,0,0.917647058823529)",
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": null,
-            "y": null,
-            "blur": null,
-            "spread": null,
-            "color": null
-          },
-          "zIndex": 21,
+          "zIndex": 12,
           "allowExport": null,
           "allowSort": null,
           "multiselectEnabled": true,
@@ -3198,230 +2607,6 @@
           "drilldownEnabled": false,
           "codeEditableEnabled": true,
           "overriddenCode": "$('#'+w.general.renderTo).html('<div class=\"popup\"><b> ⓘ </b>\\\n                                    <span class=\"popuptext\" id=\"myPopup4\"><p> На виджете показана доля процентов продаж: <br>По категории = <strong>SUM</strong>(<em>fact-rur</em>[price])<br>/ CALCULATE ( <br>SUM ( fact_rur[price]), <br> REMOVEFILTERS(\\<em>goods)</em>\\),<br> данная формула считает разбиения по строкам с учётом таким образом, что значения строки делятся на сумму столбца, благодаря функции REMOVEFILTERS, которая «убирает» контекст фильтра.<br>  Функция SUMMARIZE в мере «По подкатегории» добавляет расчёт для любого уровня иерархии в расчётах.</p></span>\\\n                                </div>');\n\nvar style = '<style>\\\n                /* Popup container */\\\n                .popup {\\\n                    position: relative;\\\n                    display: inline-block;\\\n                    cursor: pointer;\\\n                    font-size: 24px;\\\n                    color: #999;\\\n                }\\\n                \\\n                /* The actual popup (appears on top) */\\\n                .popup .popuptext {\\\n                    visibility: hidden;\\\n                    width: 800px;\\\n                    background-color: #333;\\\n                    color: #fff;\\\n                    text-align: left;\\\n                    border-radius: 10px;\\\n                    padding: 8px ;\\\n                    position: absolute;\\\n                    z-index: 1;\\\n                    bottom: -500%;\\\n                    left: 400%;\\\n                    margin-left: -325px;\\\n                }\\\n                \\\n                /* Popup arrow */\\\n                .popup .popuptext::after {\\\n                    content: \"\";\\\n                    position: absolute;\\\n                    top: 100%;\\\n                    left: 50%;\\\n                    margin-left: -5px;\\\n                    border-width: 5px;\\\n                    border-style: solid;\\\n                    border-color: #555 transparent transparent transparent;\\\n                }\\\n                \\\n                /* Toggle this class when clicking on the popup container (hide and show the popup) */\\\n                .popup .show {\\\n                    visibility: visible;\\\n                    -webkit-animation: fadeIn 1s;\\\n                    animation: fadeIn 1s\\\n                }\\\n                \\\n                /* Add animation (fade in the popup) */\\\n                @-webkit-keyframes fadeIn {\\\n                    from {opacity: 0;}\\\n                    to {opacity: 1;}\\\n                }\\\n                \\\n                @keyframes fadeIn {\\\n                    from {opacity: 0;}\\\n                    to {opacity:1 ;}\\\n                }\\\n            </style>';\n\n$('head').append(style)\n\nvar popup = $(\"#myPopup4\");\n\n$('#'+w.general.renderTo).mouseover(function() {\n    popup.toggleClass(\"show\")\n});\n$('#'+w.general.renderTo).mouseout(function() {\n    popup.toggleClass(\"show\")\n});\n",
-          "dataSettings": {
-            "columns": []
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "ImageWidget",
-          "base64": null,
-          "fileGuid": "66eb070776b94131b82abf3345e6b718",
-          "imageAlignment": null,
-          "guid": "0c9bf91d2ebd4da0963a6c2fcb1c6769",
-          "type": "ImageWidget",
-          "position": {
-            "x": 0,
-            "y": 0
-          },
-          "positionLocked": false,
-          "size": {
-            "width": 1920,
-            "height": 1080
-          },
-          "title": {
-            "enabled": false,
-            "autoSize": null,
-            "text": "Изображение 4",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": null,
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": null,
-              "fontSize": null,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": null,
-            "style": {
-              "radius": null,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": null,
-            "color": {
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": null,
-            "y": null,
-            "blur": null,
-            "spread": null,
-            "color": null
-          },
-          "zIndex": 4,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
-          "dataSettings": {
-            "columns": []
-          },
-          "widgetsExcludedFromImpact": [],
-          "dataFilter": {
-            "values": [],
-            "columns": [],
-            "type": 0,
-            "from": null,
-            "to": null,
-            "useExcluding": false
-          },
-          "filters": [],
-          "dataSort": {
-            "columns": []
-          },
-          "dataRoles": [],
-          "dataQuery": null,
-          "numberFormat": {
-            "precision": null,
-            "useGrouping": null,
-            "groupSeparator": null
-          },
-          "hasFilterInByNullValue": false
-        },
-        {
-          "Type": "ImageWidget",
-          "base64": null,
-          "fileGuid": "55dbf16fbf414c44a137b77a057abe63",
-          "imageAlignment": null,
-          "guid": "c4cd6264ebfc4979aca4f22e8cba85f5",
-          "type": "ImageWidget",
-          "position": {
-            "x": 3,
-            "y": 0
-          },
-          "positionLocked": true,
-          "size": {
-            "width": 1916,
-            "height": 1080
-          },
-          "title": {
-            "enabled": false,
-            "autoSize": null,
-            "text": "Изображение 2 - копия",
-            "link": "",
-            "linkEnabled": null,
-            "background": {
-              "enabled": null,
-              "color": {
-                "colorType": null,
-                "color": null,
-                "gradientColor": {
-                  "colorStart": null,
-                  "colorEnd": null
-                }
-              }
-            },
-            "textStyle": {
-              "color": null,
-              "fontSize": null,
-              "fontFamily": null,
-              "align": null,
-              "verticalAlign": null,
-              "lineHeight": null,
-              "isBold": null,
-              "isItalic": null
-            },
-            "size": {
-              "width": null,
-              "height": null
-            }
-          },
-          "frame": {
-            "enabled": null,
-            "style": {
-              "radius": null,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "background": {
-            "enabled": null,
-            "color": {
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
-              }
-            }
-          },
-          "boxShadow": {
-            "x": null,
-            "y": null,
-            "blur": null,
-            "spread": null,
-            "color": null
-          },
-          "zIndex": 3,
-          "allowExport": null,
-          "allowSort": null,
-          "multiselectEnabled": true,
-          "colorPalette": null,
-          "useCustomColors": false,
-          "drilldownEnabled": false,
-          "codeEditableEnabled": false,
-          "overriddenCode": null,
           "dataSettings": {
             "columns": []
           },
@@ -3458,16 +2643,16 @@
   ],
   "grantedPublicAccess": false,
   "grid": {
-    "enabled": true
+    "enabled": false
   },
   "iconVisibilitySettings": {
     "impact": true
   },
   "dataset": {
-    "workspaceId": "4de8029c-7e04-4f6b-9c46-d02b4f493192",
-    "datasetId": "5E3650BE-8079-4810-975A-0349167D9EBF"
+    "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+    "datasetId": "d7f832c5-b894-43f6-b3d4-21163c29491a"
   },
-  "workspaceId": "4de8029c-7e04-4f6b-9c46-d02b4f493192",
+  "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
   "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
   "isPublic": false
 }
