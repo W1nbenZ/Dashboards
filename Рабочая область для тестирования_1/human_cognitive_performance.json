@@ -1,0 +1,40 @@
+{
+  "guid": "d38ad41e088f4c52942f4a9894dc7232",
+  "name": "human_cognitive_performance",
+  "lastEditorName": "user",
+  "lastModified": "2025-05-20T11:28:31.474371Z",
+  "background": {
+    "type": 0,
+    "imageGuid": null,
+    "color": "rgba(255,255,255,0)"
+  },
+  "sheets": [
+    {
+      "guid": "f94328d63b144756b3805381996c8275",
+      "name": "Лист",
+      "position": 0,
+      "isHidden": false,
+      "widgets": [],
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fit": 0,
+      "color": "rgba(255,255,255,1)"
+    }
+  ],
+  "grantedPublicAccess": false,
+  "grid": {
+    "enabled": false
+  },
+  "iconVisibilitySettings": {
+    "impact": true
+  },
+  "dataset": {
+    "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+    "datasetId": "ec8ea5e7-7f7a-4034-a6e1-a0c20da5d50d"
+  },
+  "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+  "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+  "isPublic": false
+}
