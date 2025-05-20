@@ -1,0 +1,525 @@
+{
+  "guid": "1e9986c3d6bd449fa72a56e60b82f6df",
+  "name": "Тест",
+  "lastEditorName": "user",
+  "lastModified": "2025-05-20T13:47:48.832755Z",
+  "background": {
+    "type": 0,
+    "imageGuid": null,
+    "color": "rgba(255,255,255,0)"
+  },
+  "sheets": [
+    {
+      "guid": "b4bd709fe63a4635a85644eb2f76cb62",
+      "name": "Лист",
+      "position": 0,
+      "isHidden": false,
+      "widgets": [
+        {
+          "Type": "BarChart",
+          "isManualColumnSettings": true,
+          "column": {
+            "width": 100.0,
+            "padding": 0.1,
+            "isGrouping": true,
+            "selectStyle": {
+              "border": {
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                },
+                "width": 2,
+                "enabled": null
+              }
+            },
+            "unselectStyle": {
+              "transparency": null
+            }
+          },
+          "stackedLabel": {
+            "enabled": true,
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            }
+          },
+          "isStacking": true,
+          "legend": {
+            "enabled": true,
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": 500.0,
+              "isBold": null,
+              "isItalic": null
+            },
+            "horizontalAlign": 0,
+            "verticalAlign": 0,
+            "layout": 0
+          },
+          "yAxis": {
+            "enabled": null,
+            "lineEnabled": null,
+            "zoomEnabled": null,
+            "isLogarithmic": null,
+            "showOnlyIntValues": null,
+            "logarithmicTickInterval": null,
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": true,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": null
+            },
+            "min": null,
+            "max": null,
+            "interval": null,
+            "plotLines": [],
+            "plotBands": []
+          },
+          "yAxisOpposite": {
+            "enabled": false,
+            "lineEnabled": null,
+            "zoomEnabled": null,
+            "isLogarithmic": null,
+            "showOnlyIntValues": null,
+            "logarithmicTickInterval": null,
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": null,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": null
+            },
+            "min": null,
+            "max": null,
+            "interval": null,
+            "plotLines": [],
+            "plotBands": []
+          },
+          "xAxis": {
+            "lineEnabled": true,
+            "zoomEnabled": null,
+            "title": {
+              "enabled": false,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": true,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": true
+            },
+            "axisType": 0,
+            "plotLines": [],
+            "plotBands": [],
+            "opposite": null
+          },
+          "series": [
+            {
+              "name": "Барнаул",
+              "id": "Барнаул",
+              "type": 1,
+              "color": {
+                "colorType": 0,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": "rgba(220,220,220,1)",
+                  "colorEnd": "rgba(90,90,90,1)"
+                }
+              },
+              "border": {
+                "color": {
+                  "colorType": 0,
+                  "color": "rgba(90,90,90,1)",
+                  "gradientColor": {
+                    "colorStart": "rgba(220,220,220,1)",
+                    "colorEnd": "rgba(90,90,90,1)"
+                  }
+                },
+                "width": 2,
+                "enabled": false
+              },
+              "smoothLine": false,
+              "zIndex": null,
+              "points": [],
+              "dashStyle": 0,
+              "marker": {
+                "enabled": false
+              },
+              "lineWidth": null,
+              "useYAxisOpposite": false
+            }
+          ],
+          "dataLabels": {
+            "enabled": true,
+            "formatter": null,
+            "textStyle": {
+              "color": "rgb(0,0,0)",
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": true,
+              "isItalic": null
+            },
+            "allowOverlap": false
+          },
+          "tooltip": {
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "headerEnabled": null,
+            "formatter": null,
+            "valueDisplayType": null
+          },
+          "nullDataHandling": null,
+          "multiselectEnabled": false,
+          "drilldownEnabled": false,
+          "guid": "b24e3300cca4417894ae2225eadd0c10",
+          "type": "BarChart",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "positionLocked": false,
+          "size": {
+            "width": 827,
+            "height": 581
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "Линейчатая диаграмма",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": null,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 1,
+          "allowExport": null,
+          "allowSort": null,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "codeEditableEnabled": true,
+          "overriddenCode": "Highcharts.chart(w.general.renderTo, {\r\n  chart: w.general,\r\n  xAxis: w.xAxis,\r\n  yAxis: w.yAxis,\r\n  plotOptions: w.plotOptions,\r\n  tooltip: w.tooltip,\r\n  drilldown: w.drilldown,\r\n  series: w.series,\r\n  legend: {\r\n    enabled: false // отключаем встроенную легенду\r\n  }\r\n});\r\n\r\nsetTimeout(() => {\r\n  const widgetId = w.general.renderTo;\r\n  const header = document.querySelector(`#widget-header-${widgetId}`);\r\n  const widget = document.querySelector(`#widget-${widgetId}`);\r\n  const body = widget?.querySelector('.va-widget-body');\r\n\r\n  // Удалим старую кастомную легенду\r\n  const oldLegend = document.querySelector(`#custom-legend-${widgetId}`);\r\n  if (oldLegend) oldLegend.remove();\r\n\r\n  // Создаём HTML-легенду\r\n  const legend = document.createElement('div');\r\n  legend.id = `custom-legend-${widgetId}`;\r\n  legend.className = 'custom-legend';\r\n  legend.style.position = 'relative';\r\n  legend.style.background = '#ffffff';\r\n  legend.style.zIndex = '2';\r\n  legend.style.padding = '6px 12px';\r\n  legend.style.display = 'flex';\r\n  legend.style.flexWrap = 'wrap';\r\n  legend.style.gap = '12px';\r\n  legend.style.fontFamily = 'Open Sans';\r\n  legend.style.fontSize = '12px';\r\n  legend.style.borderBottom = '1px solid #ddd';\r\n\r\n  // Добавляем элементы легенды\r\n  w.series.forEach((serie, index) => {\r\n    const item = document.createElement('div');\r\n    item.style.display = 'flex';\r\n    item.style.alignItems = 'center';\r\n    item.style.cursor = 'pointer';\r\n    item.style.userSelect = 'none';\r\n    item.dataset.index = index;\r\n    item.innerHTML = `\r\n      <div style=\"width:12px;height:12px;background:${serie.color};margin-right:6px;border-radius:50%\"></div>\r\n      <span>${serie.name}</span>\r\n    `;\r\n\r\n    // Обработка клика\r\n    item.addEventListener('click', () => {\r\n      const chart = Highcharts.charts.find(c => c?.renderTo?.id === widgetId);\r\n      if (chart && chart.series[index]) {\r\n        const s = chart.series[index];\r\n        s.setVisible(!s.visible, false);\r\n        chart.redraw();\r\n\r\n        item.style.opacity = s.visible ? '1' : '0.4';\r\n      }\r\n    });\r\n\r\n    legend.appendChild(item);\r\n  });\r\n\r\n  // Вставляем в конец блока заголовка\r\n  if (header) {\r\n    header.style.flexDirection = 'column';\r\n    header.appendChild(legend);\r\n  }\r\n\r\n  // Сдвигаем тело вниз\r\n  if (body) {\r\n    body.style.marginTop = '8px';\r\n  }\r\n\r\n}, 300);\r\n",
+          "dataSettings": {
+            "columns": [
+              {
+                "type": 0,
+                "dataRoleName": "YAxis",
+                "tableName": "Календарь оплаты",
+                "name": "Год",
+                "displayName": "Год",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "ChartLegend",
+                "tableName": "cities of sale",
+                "name": "city",
+                "displayName": "city",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "XAxis",
+                "tableName": "fact_rur",
+                "name": "price",
+                "displayName": "price",
+                "expression": null,
+                "summarizeBy": 3,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              }
+            ]
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": [
+              {
+                "name": "Год",
+                "tableName": "Календарь оплаты",
+                "desc": true
+              }
+            ]
+          },
+          "dataRoles": [
+            {
+              "name": "YAxis",
+              "displayName": "Ось Y",
+              "description": "",
+              "kind": 0,
+              "optional": false
+            },
+            {
+              "name": "XAxis",
+              "displayName": "Ось X",
+              "description": "",
+              "kind": 1,
+              "optional": false
+            },
+            {
+              "name": "ChartLegend",
+              "displayName": "Легенда",
+              "description": "",
+              "kind": 0,
+              "optional": true
+            }
+          ],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        }
+      ],
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fit": 0,
+      "color": "rgba(255,255,255,1)"
+    }
+  ],
+  "grantedPublicAccess": false,
+  "grid": {
+    "enabled": false
+  },
+  "iconVisibilitySettings": {
+    "impact": true
+  },
+  "dataset": {
+    "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+    "datasetId": "d7f832c5-b894-43f6-b3d4-21163c29491a"
+  },
+  "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+  "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+  "isPublic": false
+}
