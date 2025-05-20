@@ -1,0 +1,40 @@
+{
+  "guid": "5a48b0196bfd4ef4844af871af71067a",
+  "name": "1",
+  "lastEditorName": "user",
+  "lastModified": "2025-05-20T11:45:38.101729Z",
+  "background": {
+    "type": 0,
+    "imageGuid": null,
+    "color": "rgba(255,255,255,0)"
+  },
+  "sheets": [
+    {
+      "guid": "958c9a64f3af43f8b1e3af82f6be085f",
+      "name": "Лист",
+      "position": 0,
+      "isHidden": false,
+      "widgets": [],
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fit": 0,
+      "color": "rgba(255,255,255,1)"
+    }
+  ],
+  "grantedPublicAccess": false,
+  "grid": {
+    "enabled": false
+  },
+  "iconVisibilitySettings": {
+    "impact": true
+  },
+  "dataset": {
+    "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+    "datasetId": "d7f832c5-b894-43f6-b3d4-21163c29491a"
+  },
+  "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+  "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+  "isPublic": false
+}
