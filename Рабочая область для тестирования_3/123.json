@@ -1,8 +1,8 @@
 {
-  "guid": "61c093b74bef4087aff71cb18e308701",
+  "guid": "214d07fd763e4ec79d637e53e947ac62",
   "name": "123",
   "lastEditorName": "user",
-  "lastModified": "2025-05-20T08:15:42.727607Z",
+  "lastModified": "2025-05-22T09:11:15.922443Z",
   "background": {
     "type": 0,
     "imageGuid": null,
@@ -10,11 +10,225 @@
   },
   "sheets": [
     {
-      "guid": "4f5a861c3b0349d2bc6a62e9dc4db5ce",
+      "guid": "4dfbd5258ba5405c84d9f5e93630d2c5",
       "name": "Лист",
       "position": 0,
       "isHidden": false,
-      "widgets": [],
+      "widgets": [
+        {
+          "Type": "UserWidget",
+          "templateGuid": "486df3e4881841e487b2096b523d6d4c",
+          "drilldownEnabled": false,
+          "properties": [],
+          "propertiesJson": "",
+          "isGlobal": false,
+          "workspaceId": "b2726a13-0a29-48d0-b592-c0ff6e4bd2b5",
+          "guid": "1facb2c58cee489c8d585f563b89ba77",
+          "type": "UserWidget",
+          "position": {
+            "x": 2,
+            "y": 4
+          },
+          "positionLocked": false,
+          "size": {
+            "width": 813,
+            "height": 607
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "Диаграмма Ганта",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": null,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 1,
+          "allowExport": null,
+          "allowSort": null,
+          "multiselectEnabled": true,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "codeEditableEnabled": true,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": [
+              {
+                "type": 0,
+                "dataRoleName": "d82a8d926a634139a6134f59269ddaac",
+                "tableName": "goods",
+                "name": "category",
+                "displayName": "category",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "d82a8d926a634139a6134f59269ddaac",
+                "tableName": "goods",
+                "name": "subcategory",
+                "displayName": "subcategory",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 2,
+                "dataRoleName": "d82a8d926a634139a6134f59269ddaac",
+                "tableName": "fact_rur",
+                "name": "Мера 2",
+                "displayName": "Мера 2",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 2,
+                "dataRoleName": "d82a8d926a634139a6134f59269ddaac",
+                "tableName": "fact_rur",
+                "name": "Мера 4",
+                "displayName": "Мера 4",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              }
+            ]
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [
+            {
+              "Type": "DataFilterIn",
+              "values": [
+                "2005",
+                "2009",
+                "2022"
+              ],
+              "useExcluding": false,
+              "affectOtherWidgets": false,
+              "tableName": "Календарь доставки",
+              "columnName": "Год",
+              "dataType": 6,
+              "type": "DataFilterIn",
+              "level": 0
+            },
+            {
+              "Type": "DataFilterIn",
+              "values": [
+                "Бакалея, сахар, соль",
+                "Консервы"
+              ],
+              "useExcluding": false,
+              "affectOtherWidgets": false,
+              "tableName": "goods",
+              "columnName": "category",
+              "dataType": 2,
+              "type": "DataFilterIn",
+              "level": 0
+            }
+          ],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [
+            {
+              "name": "d82a8d926a634139a6134f59269ddaac",
+              "displayName": "Измерение",
+              "description": "",
+              "kind": 2,
+              "optional": false
+            }
+          ],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        }
+      ],
       "size": {
         "width": 1920,
         "height": 1080
@@ -35,6 +249,6 @@
     "datasetId": "5e3650be-8079-4810-975a-0349167d9ebf"
   },
   "workspaceId": "b2726a13-0a29-48d0-b592-c0ff6e4bd2b5",
-  "themeGuid": "c75f35b093fe47d0b6ec4034f39e62d0",
+  "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
   "isPublic": false
 }
