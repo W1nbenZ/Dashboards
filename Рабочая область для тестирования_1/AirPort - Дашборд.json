@@ -1,0 +1,40 @@
+{
+  "guid": "0caf5bfa821740db814a7dba12939940",
+  "name": "AirPort - Дашборд",
+  "lastEditorName": "user",
+  "lastModified": "2025-05-22T06:01:32.11597Z",
+  "background": {
+    "type": 0,
+    "imageGuid": null,
+    "color": "rgba(255,255,255,0)"
+  },
+  "sheets": [
+    {
+      "guid": "d5cdcb60563d4adb9c7a0bae78e3d151",
+      "name": "Лист",
+      "position": 0,
+      "isHidden": false,
+      "widgets": [],
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fit": 0,
+      "color": "rgba(255,255,255,1)"
+    }
+  ],
+  "grantedPublicAccess": false,
+  "grid": {
+    "enabled": false
+  },
+  "iconVisibilitySettings": {
+    "impact": true
+  },
+  "dataset": {
+    "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+    "datasetId": "09aa0528-a672-499d-aaa0-8dcf339bba8f"
+  },
+  "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+  "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+  "isPublic": false
+}
