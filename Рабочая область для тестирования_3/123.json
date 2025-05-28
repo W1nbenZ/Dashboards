@@ -2,7 +2,7 @@
   "guid": "fc29314b5690485e9aab2144046838a0",
   "name": "123",
   "lastEditorName": "user",
-  "lastModified": "2025-05-28T10:10:49.569878Z",
+  "lastModified": "2025-05-28T12:50:26.033865Z",
   "background": {
     "type": 0,
     "imageGuid": null,
@@ -14,7 +14,451 @@
       "name": "Лист",
       "position": 0,
       "isHidden": false,
-      "widgets": [],
+      "widgets": [
+        {
+          "Type": "BarChart",
+          "isManualColumnSettings": null,
+          "column": {
+            "width": null,
+            "padding": null,
+            "isGrouping": null,
+            "selectStyle": {
+              "border": {
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                },
+                "width": 2,
+                "enabled": null
+              }
+            },
+            "unselectStyle": {
+              "transparency": null
+            }
+          },
+          "stackedLabel": {
+            "enabled": null,
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            }
+          },
+          "isStacking": null,
+          "legend": {
+            "enabled": null,
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "horizontalAlign": null,
+            "verticalAlign": null,
+            "layout": null
+          },
+          "yAxis": {
+            "enabled": null,
+            "lineEnabled": null,
+            "zoomEnabled": null,
+            "isLogarithmic": null,
+            "showOnlyIntValues": null,
+            "logarithmicTickInterval": null,
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": null,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": null
+            },
+            "min": null,
+            "max": null,
+            "interval": null,
+            "plotLines": [],
+            "plotBands": []
+          },
+          "yAxisOpposite": {
+            "enabled": null,
+            "lineEnabled": null,
+            "zoomEnabled": null,
+            "isLogarithmic": null,
+            "showOnlyIntValues": null,
+            "logarithmicTickInterval": null,
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": null,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": null
+            },
+            "min": null,
+            "max": null,
+            "interval": null,
+            "plotLines": [],
+            "plotBands": []
+          },
+          "xAxis": {
+            "lineEnabled": null,
+            "zoomEnabled": null,
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "labels": {
+              "enabled": null,
+              "formatter": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              }
+            },
+            "grid": {
+              "enabled": null
+            },
+            "axisType": null,
+            "plotLines": [],
+            "plotBands": [],
+            "opposite": null
+          },
+          "series": [],
+          "dataLabels": {
+            "enabled": null,
+            "formatter": null,
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "allowOverlap": null
+          },
+          "tooltip": {
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "headerEnabled": null,
+            "formatter": null,
+            "valueDisplayType": null
+          },
+          "nullDataHandling": null,
+          "multiselectEnabled": false,
+          "drilldownEnabled": false,
+          "guid": "630fd54abfe54a8ba0511b576969965d",
+          "type": "BarChart",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "positionLocked": false,
+          "size": {
+            "width": 400,
+            "height": 300
+          },
+          "title": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "Линейчатая диаграмма",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
+            }
+          },
+          "frame": {
+            "enabled": null,
+            "style": {
+              "radius": null,
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "background": {
+            "enabled": null,
+            "color": {
+              "colorType": null,
+              "color": null,
+              "gradientColor": {
+                "colorStart": null,
+                "colorEnd": null
+              }
+            }
+          },
+          "boxShadow": {
+            "x": null,
+            "y": null,
+            "blur": null,
+            "spread": null,
+            "color": null
+          },
+          "zIndex": 1,
+          "allowExport": null,
+          "allowSort": null,
+          "colorPalette": null,
+          "useCustomColors": false,
+          "codeEditableEnabled": false,
+          "overriddenCode": null,
+          "dataSettings": {
+            "columns": [
+              {
+                "type": 0,
+                "dataRoleName": "ChartLegend",
+                "tableName": "dimstore",
+                "name": "employeecount",
+                "displayName": "employeecount",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "YAxis",
+                "tableName": "dimstore",
+                "name": "addressline1",
+                "displayName": "addressline1",
+                "expression": null,
+                "summarizeBy": 2,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              },
+              {
+                "type": 0,
+                "dataRoleName": "XAxis",
+                "tableName": "dimstore",
+                "name": "addressline2",
+                "displayName": "addressline2",
+                "expression": null,
+                "summarizeBy": 6,
+                "formatString": null,
+                "conditionalFormatting": {
+                  "font": null,
+                  "background": null,
+                  "icons": null
+                }
+              }
+            ]
+          },
+          "widgetsExcludedFromImpact": [],
+          "dataFilter": {
+            "values": [],
+            "columns": [],
+            "type": 0,
+            "from": null,
+            "to": null,
+            "useExcluding": false
+          },
+          "filters": [],
+          "dataSort": {
+            "columns": []
+          },
+          "dataRoles": [
+            {
+              "name": "YAxis",
+              "displayName": "Ось Y",
+              "description": "",
+              "kind": 0,
+              "optional": false
+            },
+            {
+              "name": "XAxis",
+              "displayName": "Ось X",
+              "description": "",
+              "kind": 1,
+              "optional": false
+            },
+            {
+              "name": "ChartLegend",
+              "displayName": "Легенда",
+              "description": "",
+              "kind": 0,
+              "optional": true
+            }
+          ],
+          "dataQuery": null,
+          "numberFormat": {
+            "precision": null,
+            "useGrouping": null,
+            "groupSeparator": null
+          },
+          "hasFilterInByNullValue": false
+        }
+      ],
       "size": {
         "width": 1920,
         "height": 1080
