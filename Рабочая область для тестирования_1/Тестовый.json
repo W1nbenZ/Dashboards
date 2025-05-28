@@ -1,8 +1,8 @@
 {
-  "guid": "b33cbae44b3846b9a765efc27b45af1f",
+  "guid": "d6e8a1e5f9a34ae7a56be671b92dd647",
   "name": "Тестовый",
   "lastEditorName": "user",
-  "lastModified": "2025-05-27T08:14:39.903713Z",
+  "lastModified": "2025-05-28T10:39:31.470343Z",
   "background": {
     "type": 0,
     "imageGuid": null,
@@ -10,175 +10,112 @@
   },
   "sheets": [
     {
-      "guid": "d7b4c0a595b940b7a79cc1a7cf68b6a1",
+      "guid": "3965e07f46474ea1bc5c3279f8c7bfe2",
       "name": "Лист",
       "position": 0,
       "isHidden": false,
       "widgets": [
         {
-          "Type": "OlapTable",
-          "showRowSubTotals": null,
-          "showColumnSubTotals": null,
-          "showRowGrandTotals": null,
-          "showColumnGrandTotals": null,
-          "olapTableStyle": {
-            "header": {
-              "measureTextFormatter": "@formattedValue",
-              "dimensionTextFormatter": "@value",
-              "showTitlesInHeader": null,
-              "showTitlesInSidePanel": null,
-              "titlesTextFormatter": "@value",
-              "wordWrapEnabled": null,
-              "formattingEnabled": false,
-              "expandedLevelCount": null,
-              "expanded": null,
-              "textStyle": {
-                "color": null,
-                "fontSize": null,
-                "fontFamily": null,
-                "align": null,
-                "verticalAlign": null,
-                "lineHeight": null,
-                "isBold": null,
-                "isItalic": null
-              },
-              "background": null
-            },
-            "sidePanel": {
-              "autoWidthEnabled": null,
-              "maxTextLength": null,
-              "textFormatter": "@formattedValue",
-              "wordWrapEnabled": null,
-              "formattingEnabled": false,
-              "expandedLevelCount": null,
-              "expanded": null,
-              "textStyle": {
-                "color": null,
-                "fontSize": null,
-                "fontFamily": null,
-                "align": null,
-                "verticalAlign": null,
-                "lineHeight": null,
-                "isBold": null,
-                "isItalic": null
-              },
-              "background": null
-            },
-            "body": {
-              "formattingEnabled": false,
-              "autoAlignEnabled": true,
-              "textFormatter": "@formattedValue",
-              "textColorFormatter": "rgba(0,0,0,1.0)",
-              "backgroundFormatter": "rgba(0,0,0,0.0)",
-              "formatter": null,
-              "textStyle": {
-                "color": null,
-                "fontSize": null,
-                "fontFamily": null,
-                "align": null,
-                "verticalAlign": null,
-                "lineHeight": null,
-                "isBold": null,
-                "isItalic": null
-              },
-              "background": null
-            },
-            "rowTotal": {
-              "textStyle": {
-                "color": null,
-                "fontSize": null,
-                "fontFamily": null,
-                "align": null,
-                "verticalAlign": null,
-                "lineHeight": null,
-                "isBold": null,
-                "isItalic": null
-              },
-              "background": null
-            },
-            "columnTotal": {
-              "textStyle": {
-                "color": null,
-                "fontSize": null,
-                "fontFamily": null,
-                "align": null,
-                "verticalAlign": null,
-                "lineHeight": null,
-                "isBold": null,
-                "isItalic": null
-              },
-              "background": null
-            },
-            "rowGrandTotal": {
-              "textStyle": {
-                "color": null,
-                "fontSize": null,
-                "fontFamily": null,
-                "align": null,
-                "verticalAlign": null,
-                "lineHeight": null,
-                "isBold": null,
-                "isItalic": null
-              },
-              "background": null
-            },
-            "columnGrandTotal": {
-              "textStyle": {
-                "color": null,
-                "fontSize": null,
-                "fontFamily": null,
-                "align": null,
-                "verticalAlign": null,
-                "lineHeight": null,
-                "isBold": null,
-                "isItalic": null
-              },
-              "background": null
-            },
-            "selectCell": {
-              "borderColor": null,
+          "Type": "PieChart",
+          "circleSize": null,
+          "circleInnerSize": null,
+          "centerTitle": {
+            "enabled": null,
+            "autoSize": null,
+            "text": "",
+            "link": "",
+            "linkEnabled": null,
+            "background": {
               "enabled": null,
-              "textStyle": {
+              "color": {
+                "colorType": null,
                 "color": null,
-                "fontSize": null,
-                "fontFamily": null,
-                "align": null,
-                "verticalAlign": null,
-                "lineHeight": null,
-                "isBold": null,
-                "isItalic": null
-              },
-              "background": null
-            },
-            "exportEnabled": null,
-            "virtualScrollingEnabled": true,
-            "exportIconColor": null,
-            "borderStyle": {
-              "radius": null,
-              "colorType": null,
-              "color": null,
-              "gradientColor": {
-                "colorStart": null,
-                "colorEnd": null
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
               }
+            },
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "size": {
+              "width": null,
+              "height": null
             }
           },
-          "drilldownEnabled": true,
-          "guid": "d83b2168d47d4f1b92e47fb0e642f69a",
-          "type": "OlapTable",
+          "legend": {
+            "enabled": null,
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "horizontalAlign": null,
+            "verticalAlign": null,
+            "layout": null
+          },
+          "series": [],
+          "pieDataLabels": {
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "valueDisplayType": null,
+            "formatter": null,
+            "distance": null
+          },
+          "tooltip": {
+            "textStyle": {
+              "color": null,
+              "fontSize": null,
+              "fontFamily": null,
+              "align": null,
+              "verticalAlign": null,
+              "lineHeight": null,
+              "isBold": null,
+              "isItalic": null
+            },
+            "headerEnabled": null,
+            "formatter": null,
+            "valueDisplayType": null
+          },
+          "dataLabelsFormatter": null,
+          "multiselectEnabled": false,
+          "drilldownEnabled": false,
+          "guid": "33a2c30d8dbd442ca9c908a0f9771f90",
+          "type": "PieChart",
           "position": {
             "x": 0,
             "y": 0
           },
           "positionLocked": false,
           "size": {
-            "width": 1033,
-            "height": 474
+            "width": 400,
+            "height": 300
           },
           "title": {
             "enabled": null,
             "autoSize": null,
-            "text": "Сводная таблица",
+            "text": "Круговая диаграмма",
             "link": "",
             "linkEnabled": null,
             "background": {
@@ -240,7 +177,6 @@
           "zIndex": 1,
           "allowExport": null,
           "allowSort": null,
-          "multiselectEnabled": false,
           "colorPalette": null,
           "useCustomColors": false,
           "codeEditableEnabled": false,
@@ -249,10 +185,10 @@
             "columns": [
               {
                 "type": 0,
-                "dataRoleName": "Rows",
-                "tableName": "Календарь оплаты",
-                "name": "Фискальный год",
-                "displayName": "Фискальный год",
+                "dataRoleName": "Legend",
+                "tableName": "Category_goods",
+                "name": "name",
+                "displayName": "name",
                 "expression": null,
                 "summarizeBy": 2,
                 "formatString": null,
@@ -264,12 +200,12 @@
               },
               {
                 "type": 0,
-                "dataRoleName": "Columns",
+                "dataRoleName": "Values",
                 "tableName": "Category_goods",
-                "name": "name",
-                "displayName": "name",
+                "name": "subcategory",
+                "displayName": "subcategory",
                 "expression": null,
-                "summarizeBy": 2,
+                "summarizeBy": 6,
                 "formatString": null,
                 "conditionalFormatting": {
                   "font": null,
@@ -294,22 +230,15 @@
           },
           "dataRoles": [
             {
-              "name": "Rows",
-              "displayName": "Строки",
-              "description": "",
-              "kind": 0,
-              "optional": false
-            },
-            {
-              "name": "Columns",
-              "displayName": "Столбцы",
+              "name": "Legend",
+              "displayName": "Условные обозначения",
               "description": "",
               "kind": 0,
               "optional": false
             },
             {
               "name": "Values",
-              "displayName": "Показатели",
+              "displayName": "Значения",
               "description": "",
               "kind": 1,
               "optional": false
