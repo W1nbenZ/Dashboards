@@ -3,7 +3,7 @@
     "guid": "9be29837be93446e9c5b7d5fd969bde0",
     "name": "AZ_dashboard",
     "lastEditorName": "user",
-    "lastModified": "2025-05-29T15:12:28.215582Z",
+    "lastModified": "2025-05-29T23:09:49.185972Z",
     "background": {
       "type": 0,
       "imageGuid": null,
@@ -335,9 +335,9 @@
                 {
                   "type": 0,
                   "dataRoleName": "XAxis",
-                  "tableName": "offer",
-                  "name": "complex_id",
-                  "displayName": "complex_id",
+                  "tableName": "Cost_of_Living_and_Income_Extended",
+                  "name": "Country",
+                  "displayName": "Country",
                   "expression": null,
                   "summarizeBy": 2,
                   "formatString": null,
@@ -350,11 +350,11 @@
                 {
                   "type": 0,
                   "dataRoleName": "YAxis",
-                  "tableName": "offer",
-                  "name": "price per sq m",
-                  "displayName": "price per sq m",
+                  "tableName": "Cost_of_Living_and_Income_Extended",
+                  "name": "Region",
+                  "displayName": "Region",
                   "expression": null,
-                  "summarizeBy": 7,
+                  "summarizeBy": 6,
                   "formatString": null,
                   "conditionalFormatting": {
                     "font": null,
@@ -363,11 +363,11 @@
                   }
                 },
                 {
-                  "type": 1,
-                  "dataRoleName": "YAxis",
-                  "tableName": "offer",
-                  "name": "Мера",
-                  "displayName": "Мера",
+                  "type": 0,
+                  "dataRoleName": "ChartLegend",
+                  "tableName": "Cost_of_Living_and_Income_Extended",
+                  "name": "Year",
+                  "displayName": "Year",
                   "expression": null,
                   "summarizeBy": 2,
                   "formatString": null,
@@ -421,9 +421,9 @@
                   "dataColumn": {
                     "type": 0,
                     "dataRoleName": "XAxis",
-                    "tableName": "offer",
-                    "name": "complex_id",
-                    "displayName": "complex_id",
+                    "tableName": "Cost_of_Living_and_Income_Extended",
+                    "name": "Country",
+                    "displayName": "Country",
                     "expression": null,
                     "summarizeBy": 2,
                     "formatString": null,
@@ -437,8 +437,8 @@
                   "groupingType": 1,
                   "sort": {
                     "orderBy": {
-                      "tableName": "offer",
-                      "columnName": "complex_id"
+                      "tableName": "Cost_of_Living_and_Income_Extended",
+                      "columnName": "Country"
                     },
                     "direction": 0,
                     "sortIndex": 0
@@ -450,11 +450,11 @@
                   "dataColumn": {
                     "type": 0,
                     "dataRoleName": "YAxis",
-                    "tableName": "offer",
-                    "name": "price per sq m",
-                    "displayName": "price per sq m",
+                    "tableName": "Cost_of_Living_and_Income_Extended",
+                    "name": "Region",
+                    "displayName": "Region",
                     "expression": null,
-                    "summarizeBy": 7,
+                    "summarizeBy": 6,
                     "formatString": null,
                     "conditionalFormatting": {
                       "font": null,
@@ -466,8 +466,8 @@
                   "groupingType": 0,
                   "sort": {
                     "orderBy": {
-                      "tableName": "offer",
-                      "columnName": "price per sq m"
+                      "tableName": "Cost_of_Living_and_Income_Extended",
+                      "columnName": "Region"
                     },
                     "direction": 0,
                     "sortIndex": 1
@@ -477,11 +477,11 @@
                 },
                 {
                   "dataColumn": {
-                    "type": 1,
-                    "dataRoleName": "YAxis",
-                    "tableName": "offer",
-                    "name": "Мера",
-                    "displayName": "Мера",
+                    "type": 0,
+                    "dataRoleName": "ChartLegend",
+                    "tableName": "Cost_of_Living_and_Income_Extended",
+                    "name": "Year",
+                    "displayName": "Year",
                     "expression": null,
                     "summarizeBy": 2,
                     "formatString": null,
@@ -492,16 +492,16 @@
                     }
                   },
                   "dataType": null,
-                  "groupingType": 0,
+                  "groupingType": 2,
                   "sort": {
                     "orderBy": {
-                      "tableName": "offer",
-                      "columnName": "Мера"
+                      "tableName": "Cost_of_Living_and_Income_Extended",
+                      "columnName": "Year"
                     },
                     "direction": 0,
-                    "sortIndex": 2
+                    "sortIndex": 0
                   },
-                  "orderIndex": 1,
+                  "orderIndex": 0,
                   "formatString": null
                 }
               ],
@@ -511,7 +511,7 @@
               "includeGrandTotal": false,
               "includeTotals": false,
               "combineKeys": true,
-              "datasetId": "edf12b62-95ad-4aaf-85f4-1e5d4c891798",
+              "datasetId": "8d235552-b0cb-4426-94b6-06f8bf919d82",
               "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db"
             },
             "numberFormat": {
