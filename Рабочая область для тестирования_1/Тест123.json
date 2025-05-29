@@ -1,0 +1,261 @@
+{
+  "dashboard": {
+    "guid": "bd0ff179ac154353aa1876c627d7c56a",
+    "name": "Тест123",
+    "lastEditorName": "user",
+    "lastModified": "2025-05-29T20:28:06.988856Z",
+    "background": {
+      "type": 0,
+      "imageGuid": null,
+      "color": "rgba(255,255,255,0)"
+    },
+    "sheets": [
+      {
+        "guid": "b535f9fe65b84dc9907c58a3eef24a2f",
+        "name": "Лист",
+        "position": 0,
+        "isHidden": false,
+        "widgets": [
+          {
+            "Type": "PieChart",
+            "circleSize": null,
+            "circleInnerSize": null,
+            "centerTitle": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "legend": {
+              "enabled": null,
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "horizontalAlign": null,
+              "verticalAlign": null,
+              "layout": null
+            },
+            "series": [],
+            "pieDataLabels": {
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "valueDisplayType": null,
+              "formatter": null,
+              "distance": null
+            },
+            "tooltip": {
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "headerEnabled": null,
+              "formatter": null,
+              "valueDisplayType": null
+            },
+            "dataLabelsFormatter": null,
+            "multiselectEnabled": false,
+            "drilldownEnabled": false,
+            "guid": "54b555b1a68c4281a61ef82d65935771",
+            "type": "PieChart",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "positionLocked": false,
+            "size": {
+              "width": 400,
+              "height": 300
+            },
+            "title": {
+              "enabled": null,
+              "autoSize": null,
+              "text": "Круговая диаграмма",
+              "link": "",
+              "linkEnabled": null,
+              "background": {
+                "enabled": null,
+                "color": {
+                  "colorType": null,
+                  "color": null,
+                  "gradientColor": {
+                    "colorStart": null,
+                    "colorEnd": null
+                  }
+                }
+              },
+              "textStyle": {
+                "color": null,
+                "fontSize": null,
+                "fontFamily": null,
+                "align": null,
+                "verticalAlign": null,
+                "lineHeight": null,
+                "isBold": null,
+                "isItalic": null
+              },
+              "size": {
+                "width": null,
+                "height": null
+              }
+            },
+            "frame": {
+              "enabled": null,
+              "style": {
+                "radius": null,
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "background": {
+              "enabled": null,
+              "color": {
+                "colorType": null,
+                "color": null,
+                "gradientColor": {
+                  "colorStart": null,
+                  "colorEnd": null
+                }
+              }
+            },
+            "boxShadow": {
+              "x": null,
+              "y": null,
+              "blur": null,
+              "spread": null,
+              "color": null
+            },
+            "zIndex": 1,
+            "allowExport": null,
+            "allowSort": null,
+            "colorPalette": null,
+            "useCustomColors": false,
+            "codeEditableEnabled": false,
+            "overriddenCode": null,
+            "dataSettings": {
+              "columns": []
+            },
+            "widgetsExcludedFromImpact": [],
+            "dataFilter": {
+              "values": [],
+              "columns": [],
+              "type": 0,
+              "from": null,
+              "to": null,
+              "useExcluding": false
+            },
+            "filters": [],
+            "dataSort": {
+              "columns": []
+            },
+            "dataRoles": [
+              {
+                "name": "Legend",
+                "displayName": "Условные обозначения",
+                "description": "",
+                "kind": 0,
+                "optional": false
+              },
+              {
+                "name": "Values",
+                "displayName": "Значения",
+                "description": "",
+                "kind": 1,
+                "optional": false
+              }
+            ],
+            "dataQuery": {
+              "columns": [],
+              "filters": [],
+              "links": [],
+              "take": 0,
+              "includeGrandTotal": false,
+              "includeTotals": false,
+              "combineKeys": true,
+              "datasetId": null,
+              "workspaceId": null
+            },
+            "numberFormat": {
+              "precision": null,
+              "useGrouping": null,
+              "groupSeparator": null
+            },
+            "hasFilterInByNullValue": false
+          }
+        ],
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fit": 0,
+        "color": "rgba(255,255,255,1)"
+      }
+    ],
+    "grantedPublicAccess": false,
+    "grid": {
+      "enabled": false
+    },
+    "dataset": {
+      "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+      "datasetId": "24c716cc-6539-488f-81ab-9262df61c3b0"
+    },
+    "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+    "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+    "isPublic": false,
+    "iconVisibilitySettings": {
+      "impact": true
+    }
+  },
+  "dashboardMeasures": [],
+  "images": []
+}
