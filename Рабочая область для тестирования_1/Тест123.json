@@ -3,7 +3,7 @@
     "guid": "bd0ff179ac154353aa1876c627d7c56a",
     "name": "Тест123",
     "lastEditorName": "user",
-    "lastModified": "2025-05-29T20:28:06.988856Z",
+    "lastModified": "2025-05-29T20:30:06.65782Z",
     "background": {
       "type": 0,
       "imageGuid": null,
@@ -123,7 +123,7 @@
                 "enabled": null,
                 "color": {
                   "colorType": null,
-                  "color": null,
+                  "color": "rgb(163,153,153)",
                   "gradientColor": {
                     "colorStart": null,
                     "colorEnd": null
@@ -131,7 +131,7 @@
                 }
               },
               "textStyle": {
-                "color": null,
+                "color": "rgb(67,124,181)",
                 "fontSize": null,
                 "fontFamily": null,
                 "align": null,
