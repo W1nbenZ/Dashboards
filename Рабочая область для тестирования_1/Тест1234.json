@@ -1,9 +1,9 @@
 {
   "dashboard": {
-    "guid": "36797c9e549a4eca9d1a5fcc5184b7c1",
+    "guid": "9c73e8fd679a456a83614e3b69211802",
     "name": "Тест1234",
     "lastEditorName": "user",
-    "lastModified": "2025-05-29T23:49:51.832045Z",
+    "lastModified": "2025-05-30T05:44:53.965114Z",
     "background": {
       "type": 0,
       "imageGuid": null,
@@ -337,7 +337,7 @@
     },
     "dataset": {
       "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
-      "datasetId": "7ff7773e-b011-491b-9244-30c676ca2eb0"
+      "datasetId": "d7f832c5-b894-43f6-b3d4-21163c29491a"
     },
     "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
     "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
