@@ -1,0 +1,44 @@
+{
+  "dashboard": {
+    "guid": "ffc3125b8dc243f0a7bd86006ae556d4",
+    "name": "Energy Efficiency Dataset",
+    "lastEditorName": "user",
+    "lastModified": "2025-05-30T05:58:06.801644Z",
+    "background": {
+      "type": 0,
+      "imageGuid": null,
+      "color": "rgba(255,255,255,0)"
+    },
+    "sheets": [
+      {
+        "guid": "c90a06536f6f43c292c12783eed5f1e8",
+        "name": "Лист",
+        "position": 0,
+        "isHidden": false,
+        "widgets": [],
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "fit": 0,
+        "color": "rgba(255,255,255,1)"
+      }
+    ],
+    "grantedPublicAccess": false,
+    "grid": {
+      "enabled": false
+    },
+    "dataset": {
+      "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+      "datasetId": "ad0ee0f0-6e8a-4c8c-a953-6e27ecf897d4"
+    },
+    "workspaceId": "962c291b-2e11-4b24-b980-e13d0376a4db",
+    "themeGuid": "6a21f8f3fb9744d1832c3be41ab61645",
+    "isPublic": false,
+    "iconVisibilitySettings": {
+      "impact": true
+    }
+  },
+  "dashboardMeasures": [],
+  "images": []
+}
